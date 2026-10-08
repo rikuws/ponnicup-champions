@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <title>Champions League</title>
+  <rect width="512" height="512" fill="#07142f"/>
+  <circle cx="256" cy="256" r="169" stroke="#c4ccdc" stroke-width="14"/>
+  <path d="M256 87v49M416.7 203.8l-46.6 15.1M355.3 392.7l-28.8-39.6M156.7 392.7l28.8-39.6M95.3 203.8l46.6 15.1" stroke="#c4ccdc" stroke-width="14"/>
+  <path d="m256 126 38.2 77.5 85.6 12.4-61.9 60.4 14.6 85.2L256 321.3l-76.5 40.2 14.6-85.2-61.9-60.4 85.6-12.4L256 126Z" fill="#fff"/>
+</svg>

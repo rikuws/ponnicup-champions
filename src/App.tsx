@@ -10,7 +10,7 @@ import { AdminPage } from './AdminPage';
 const pages = [
   { path: '/today', label: 'Kierros', icon: CalendarDays },
   { path: '/leaderboard', label: 'Pörssi', icon: Trophy },
-  { path: '/champions-league', label: 'Mestarien liiga', icon: Shield },
+  { path: '/champions-league', label: 'Kilpailu', icon: Shield },
   { path: '/rules', label: 'Säännöt', icon: CircleHelp },
 ] as const;
 type Page = (typeof pages)[number]['path'] | '/admin';
@@ -102,9 +102,9 @@ export function App() {
 
   return <>
     <a className="skip-link" href="#main">Siirry sisältöön</a>
-    <header className="topbar"><div className="topbar-inner"><a href="/today" className="brand-link" onClick={event => { if (!event.metaKey && !event.ctrlKey) { event.preventDefault(); navigate('/today'); } }}><Brand compact /></a><div className="season-label">Mestarien liiga <strong>2026–27</strong></div><button type="button" className="profile-button" onClick={() => { setProfile(true); setProfileError(''); }} aria-label={`Oma tili: ${user.displayName}`}><span className="avatar">{user.displayName.slice(0, 1)}</span><span>{user.displayName}</span><ChevronDown size={14} /></button></div></header>
+    <header className="topbar"><div className="topbar-inner"><a href="/today" className="brand-link" onClick={event => { if (!event.metaKey && !event.ctrlKey) { event.preventDefault(); navigate('/today'); } }}><Brand compact /></a><div className="season-label">Kausi <strong>2026–27</strong></div><button type="button" className="profile-button" onClick={() => { setProfile(true); setProfileError(''); }} aria-label={`Oma tili: ${user.displayName}`}><span className="avatar">{user.displayName.slice(0, 1)}</span><span>{user.displayName}</span><ChevronDown size={14} /></button></div></header>
     <div className="app-layout">
-      <nav className="main-nav" aria-label="Päänavigaatio">{pages.map(item => <a href={item.path} key={item.path} aria-current={page === item.path ? 'page' : undefined} onClick={event => { if (!event.metaKey && !event.ctrlKey) { event.preventDefault(); navigate(item.path); } }}><item.icon size={21} strokeWidth={1.8} /><span>{item.label}</span></a>)}{user.role === 'admin' && <a className="admin-nav" href="/admin" aria-current={page === '/admin' ? 'page' : undefined} onClick={event => { event.preventDefault(); navigate('/admin'); }}><Settings2 size={21} strokeWidth={1.8} /><span>Ylläpito</span></a>}<div className="nav-footnote"><img src="/ponnicup.png" alt="" /><p>Sama porukka.<br />Euroopan kentät.</p></div></nav>
+      <nav className="main-nav" aria-label="Päänavigaatio">{pages.map(item => <a href={item.path} key={item.path} aria-current={page === item.path ? 'page' : undefined} onClick={event => { if (!event.metaKey && !event.ctrlKey) { event.preventDefault(); navigate(item.path); } }}><item.icon size={21} strokeWidth={1.8} /><span>{item.label}</span></a>)}{user.role === 'admin' && <a className="admin-nav" href="/admin" aria-current={page === '/admin' ? 'page' : undefined} onClick={event => { event.preventDefault(); navigate('/admin'); }}><Settings2 size={21} strokeWidth={1.8} /><span>Ylläpito</span></a>}<div className="nav-footnote"><strong>Champions League</strong><p>Euroopan illat.<br />Oman porukan liiga.</p></div></nav>
       <main id="main" tabIndex={-1} ref={heading} className="main-content">
         {gameError && <Notice><strong>{game ? 'Tiedot eivät päivittyneet.' : 'Tietoja ei voitu ladata.'}</strong> {gameError} {game && <span> Näytetään edellinen onnistunut haku. Vedonlyönti jatkuu yhteyden palattua.</span>}<button type="button" className="text-button" disabled={refreshing} onClick={() => void refresh()}><RefreshCw size={15} />Yritä uudelleen</button></Notice>}
         {!game ? (refreshing || !gameError ? <LoadingPage /> : null) : <>
@@ -114,15 +114,15 @@ export function App() {
           {page === '/rules' && <RulesPage game={game} onChangePin={() => setChangePin(true)} />}
           {page === '/admin' && (user.role === 'admin' ? <AdminPage game={game} onRefresh={refresh} /> : <Notice>Ylläpito on vain liigan ylläpitäjälle.</Notice>)}
         </>}
-        {game && <footer className="page-footer"><span>Ponnicup · 2026–27</span><span>Kaikki ajat Suomen aikaa</span><button className="text-button" type="button" onClick={() => void refresh()} disabled={refreshing} aria-label="Päivitä tiedot"><RefreshCw size={13} className={refreshing ? 'spin' : ''} />{refreshing ? 'Päivitetään' : 'Päivitä'}</button></footer>}
+        {game && <footer className="page-footer"><span>Champions League · 2026–27</span><span>Kaikki ajat Suomen aikaa</span><button className="text-button" type="button" onClick={() => void refresh()} disabled={refreshing} aria-label="Päivitä tiedot"><RefreshCw size={13} className={refreshing ? 'spin' : ''} />{refreshing ? 'Päivitetään' : 'Päivitä'}</button></footer>}
       </main>
     </div>
-    {profile && !changePin && <Drawer title={user.displayName} onClose={() => setProfile(false)} busy={signingOut}><div className="profile-info"><UserRound size={24} /><p>Oma paikka Ponnicupissa.<br /><span className="muted">{user.role === 'admin' ? 'Pelaaja ja ylläpitäjä' : 'Pelaaja'}</span></p></div>{profileError && <Notice>{profileError}</Notice>}<div className="stack"><button className="button secondary" type="button" onClick={() => setChangePin(true)}>Vaihda PIN</button>{user.role === 'admin' && <button className="button secondary" type="button" onClick={() => { setProfile(false); navigate('/admin'); }}><Settings2 size={18} />Avaa ylläpito</button>}<button className="button danger-outline" type="button" disabled={signingOut} onClick={() => void logout()}>{signingOut ? <Spinner label="Kirjaudutaan ulos" /> : <><LogOut size={18} />Kirjaudu ulos</>}</button></div></Drawer>}
+    {profile && !changePin && <Drawer title={user.displayName} onClose={() => setProfile(false)} busy={signingOut}><div className="profile-info"><UserRound size={24} /><p>Oma paikka liigassa.<br /><span className="muted">{user.role === 'admin' ? 'Pelaaja ja ylläpitäjä' : 'Pelaaja'}</span></p></div>{profileError && <Notice>{profileError}</Notice>}<div className="stack"><button className="button secondary" type="button" onClick={() => setChangePin(true)}>Vaihda PIN</button>{user.role === 'admin' && <button className="button secondary" type="button" onClick={() => { setProfile(false); navigate('/admin'); }}><Settings2 size={18} />Avaa ylläpito</button>}<button className="button danger-outline" type="button" disabled={signingOut} onClick={() => void logout()}>{signingOut ? <Spinner label="Kirjaudutaan ulos" /> : <><LogOut size={18} />Kirjaudu ulos</>}</button></div></Drawer>}
     {changePin && <Drawer title="Vaihda PIN" onClose={() => setChangePin(false)}><PinForm user={user} onDone={pinChanged} /></Drawer>}
   </>;
 }
 
-function Brand({ compact = false }: { compact?: boolean }) { return <div className={`brand ${compact ? 'compact' : ''}`}><img src="/ponnicup.png" alt="" /><span>Ponni<span className="brand-cup">cup</span><small>{compact ? 'Oman porukan liiga' : 'Mestarien liiga 2026–27'}</small></span></div>; }
+function Brand({ compact = false }: { compact?: boolean }) { return <div className={`brand ${compact ? 'compact' : ''}`}><img className="brand-mark" src="/champions-league.svg" alt="" width="66" height="66" /><div><span className="brand-title"><span>Champions</span><span>League</span></span><small>{compact ? 'Oman porukan liiga' : 'Oman porukan liiga · 2026–27'}</small></div></div>; }
 
 function Login({ players, error, onRetry, onLogin }: { players: User[]; error: string; onRetry: () => Promise<void>; onLogin: (user: User, pin: string) => void }) {
   const [userId, setUserId] = useState('');

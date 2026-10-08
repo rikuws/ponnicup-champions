@@ -1,10 +1,15 @@
 {
-  "name": "Ponnicup · Mestarien liiga",
-  "short_name": "Ponnicup",
+  "name": "Champions League",
+  "short_name": "Champions League",
+  "description": "Oman porukan liiga. Kausi 2026–27.",
   "lang": "fi",
   "start_url": "/today",
   "display": "standalone",
-  "background_color": "#f5f7f1",
-  "theme_color": "#0a372a",
-  "icons": [{ "src": "/ponnicup.png", "sizes": "any", "type": "image/png", "purpose": "any" }]
+  "background_color": "#07142f",
+  "theme_color": "#07142f",
+  "icons": [
+    { "src": "/champions-league.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/champions-league-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/champions-league-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
 }

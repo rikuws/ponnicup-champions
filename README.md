@@ -1,6 +1,6 @@
-# Ponnicup · Champions League 2026–27
+# Champions League · 2026–27
 
-The same five friends, playing the Champions League with the World Cup game's coins, private picks, daily bonuses, rankings and awards. The default start is **13 October 2026, league matchday 2**. The old `../ponnicup-2026` project is untouched.
+A private Champions League app for five friends, with coins, private picks, daily bonuses, rankings and awards. Midnight blue, white and silver define the app, from match screens to its home-screen icon. The default start is **13 October 2026, league matchday 2**. The old `../ponnicup-2026` project is untouched.
 
 React + Vite serves a Finnish mobile-first interface. A Node API and scheduled worker use ordinary PostgreSQL transactions. The application does not need Supabase, Netlify or provider API keys to operate.
 
@@ -58,7 +58,7 @@ Open [localhost:3000](http://localhost:3000). `GET /api/health` checks API/datab
 
 ## Play without API keys
 
-The first seed imports a checked-in **144-match UEFA league-phase calendar**, retrieved on 8 September 2026. All 36 clubs and eight league rounds are included; first-round fixtures are ineligible for Ponnicup betting. Existing fixtures, balances and PINs are preserved on subsequent seeds. The calendar is a snapshot, so later scheduling changes require verification. The [source URL and retrieval metadata](server/data/ucl-2026-fixtures.json) are stored with the data.
+The first seed imports a checked-in **144-match UEFA league-phase calendar**, retrieved on 8 September 2026. All 36 clubs and eight league rounds are included; first-round fixtures are ineligible for betting. Existing fixtures, balances and PINs are preserved on subsequent seeds. The calendar is a snapshot, so later scheduling changes require verification. The [source URL and retrieval metadata](server/data/ucl-2026-fixtures.json) are stored with the data.
 
 Odds remain closed until supplied. Log in as Riku, change the bootstrap PIN, and open **Ylläpito → Syötä kertoimet**. Enter verified or group-agreed 1X2 prices, optional score/scorer markets and a reason. After matches, use **Tuloksen korjaus** to enter verified results. The admin can also add fixtures. No demo balances, invented odds or synthetic results are used in the live interface.
 
