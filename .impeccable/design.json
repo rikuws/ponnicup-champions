@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-08T20:18:28.202964+00:00",
+  "generatedAt": "2026-10-08T20:32:11.673030+00:00",
   "title": "Design System: Pönnicup",
   "extensions": {
     "shadows": [
@@ -54,6 +54,106 @@
         "name": "mobile",
         "value": "600px"
       }
+    ],
+    "typographyInventory": [
+      {
+        "name": "form-result-mark",
+        "fontSize": "8px"
+      },
+      {
+        "name": "compact-status",
+        "fontSize": "9px"
+      },
+      {
+        "name": "metadata",
+        "fontSize": "10px"
+      },
+      {
+        "name": "supporting-label",
+        "fontSize": "11px"
+      },
+      {
+        "name": "control-label",
+        "fontSize": "12px"
+      },
+      {
+        "name": "button-label",
+        "fontSize": "14px"
+      },
+      {
+        "name": "mobile-section-title",
+        "fontSize": "17px"
+      },
+      {
+        "name": "fixture-day-title",
+        "fontSize": "18px"
+      },
+      {
+        "name": "panel-title",
+        "fontSize": "19px"
+      },
+      {
+        "name": "admin-section-title",
+        "fontSize": "20px"
+      },
+      {
+        "name": "wallet-value",
+        "fontSize": "22px"
+      },
+      {
+        "name": "mobile-statistic",
+        "fontSize": "23px"
+      },
+      {
+        "name": "compact-brand",
+        "fontSize": "24px"
+      },
+      {
+        "name": "input-value",
+        "fontSize": "25px"
+      },
+      {
+        "name": "narrow-round-title",
+        "fontSize": "26px"
+      },
+      {
+        "name": "mobile-brand",
+        "fontSize": "27px"
+      },
+      {
+        "name": "mobile-display",
+        "fontSize": "29px"
+      },
+      {
+        "name": "mobile-login-title",
+        "fontSize": "31px"
+      },
+      {
+        "name": "brand",
+        "fontSize": "32px"
+      },
+      {
+        "name": "login-title",
+        "fontSize": "33px"
+      }
+    ],
+    "radiusInventory": [
+      {
+        "name": "legend",
+        "value": "2px"
+      },
+      {
+        "name": "badge",
+        "value": "4px"
+      },
+      {
+        "name": "segmented-control",
+        "value": "5px"
+      },
+      {
+        "name": "table",
+        "value": "10px"
+      }
     ]
   },
   "components": [
@@ -102,7 +202,7 @@
       "kind": "chip",
       "refersTo": "filter",
       "description": "Pressed white segment inside a pale blue-gray filter group, from .filter-group.",
-      "html": "<div class=\"ds-filter-group\"><button aria-pressed=\"true\">Kaikki</button><button aria-pressed=\"false\">Tänä iltana</button><button aria-pressed=\"false\">Puuttuvat</button></div>",
+      "html": "<div class=\"ds-filter-group\"><button aria-pressed=\"true\">Kaikki</button><button aria-pressed=\"false\">Tänään</button><button aria-pressed=\"false\">Puuttuvat</button></div>",
       "css": ":host { font-family: \"Avenir Next\", \"Gill Sans\", \"Trebuchet MS\", \"Segoe UI\", sans-serif; color: var(--ink, oklch(0.2602 0.0477 259.93)); font-variant-numeric: tabular-nums; line-height: 1.5; }\nbutton, input, textarea, select { font: inherit; }\nbutton { cursor: pointer; }\nbutton { transition: background-color 150ms ease-out, color 150ms ease-out, border-color 150ms ease-out; }\nbutton:disabled { cursor: not-allowed; opacity: .55; }\nbutton:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible, summary:focus-visible, [tabindex=\"0\"]:focus-visible { outline: 3px solid var(--focus, oklch(0.5678 0.1665 260.85)); outline-offset: 3px; }\n.ds-filter-group { display: inline-flex; gap: 4px; background: var(--panel-strong, oklch(0.9473 0.0108 256.70)); padding: 4px; border-radius: 8px; max-width: 100%; }\n.ds-filter-group > button { display: inline-flex; align-items: center; justify-content: center; gap: 7px; border: 0; color: var(--muted, oklch(0.4930 0.0428 259.72)); background: transparent; min-height: 36px; padding: 8px 11px; border-radius: 5px; font-size: 12px; font-weight: 650; white-space: nowrap; }\n.ds-filter-group > button:hover { background: oklch(1 0 0 / 0.478); }\n.ds-filter-group > button[aria-pressed=\"true\"] { background: var(--panel, oklch(1.0000 0.0000 0.00)); color: var(--midnight, oklch(0.2005 0.0557 261.22)); box-shadow: 0 2px 5px oklch(0.2005 0.0557 261.22 / .08); }\n@media (max-width: 600px) { .ds-filter-group { width: 100%; } .ds-filter-group > button { flex: 1; font-size: 11px; min-height: 44px; padding: 8px 7px; gap: 6px; } }\n@media (prefers-reduced-motion: reduce) { button { transition-duration: .01ms !important; } }"
     },
     {

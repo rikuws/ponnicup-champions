@@ -48,7 +48,51 @@ typography:
   label:
     fontSize: "13px"
     fontWeight: 650
+  form-result-mark:
+    fontSize: "8px"
+  compact-status:
+    fontSize: "9px"
+  metadata:
+    fontSize: "10px"
+  supporting-label:
+    fontSize: "11px"
+  control-label:
+    fontSize: "12px"
+  button-label:
+    fontSize: "14px"
+  mobile-section-title:
+    fontSize: "17px"
+  fixture-day-title:
+    fontSize: "18px"
+  panel-title:
+    fontSize: "19px"
+  admin-section-title:
+    fontSize: "20px"
+  wallet-value:
+    fontSize: "22px"
+  mobile-statistic:
+    fontSize: "23px"
+  compact-brand:
+    fontSize: "24px"
+  input-value:
+    fontSize: "25px"
+  narrow-round-title:
+    fontSize: "26px"
+  mobile-brand:
+    fontSize: "27px"
+  mobile-display:
+    fontSize: "29px"
+  mobile-login-title:
+    fontSize: "31px"
+  brand:
+    fontSize: "32px"
+  login-title:
+    fontSize: "33px"
 rounded:
+  legend: "2px"
+  badge: "4px"
+  segmented-control: "5px"
+  table: "10px"
   status: "3px"
   odds: "6px"
   field: "7px"
@@ -138,7 +182,7 @@ The unselected `1`, `X` and `2` labels, pending-pick note and subdued ranking co
 
 ## Typography
 
-Use the preserved Avenir Next / Gill Sans / Trebuchet MS / Segoe UI system sans-serif stack. No external font is needed. Numerals are tabular throughout.
+Use the preserved Avenir Next / Gill Sans / Trebuchet MS / Segoe UI system sans-serif stack. No external font is needed. Numerals are tabular throughout. The frontmatter includes the full implemented size inventory: compact result marks and metadata, controls, component titles, numeric inputs, responsive headings and brand variants. These component-specific roles document the current interface; they are not interchangeable steps for body text.
 
 Page headings use the display role and become 29px on screens at or below 600px; the round heading becomes 26px at or below 360px. Section and card titles use weight rather than a second typeface. The base body size becomes 14px on mobile; mobile form fields use 16px. Fixture names increase from 13px to 14px, and odds from 14px to 16px, on mobile. Compact metadata remains secondary but retains text equivalents for every state.
 
@@ -162,7 +206,7 @@ Button color transitions last 150ms with ease-out. The floating slip uses a brie
 
 ## Shapes
 
-Use gently rounded controls and boards: 6px odds, 7px fields and desktop navigation items, 8px buttons, and 12px fixture cards and wallet surfaces. The login panel uses 14px corners. Desktop dialogs use 15px corners; mobile dialogs have 17px upper corners and square lower corners. Status labels use small 3px corners and remain level. Preserve the geometry and proportions of the official UEFA logo.
+Qualification legend markers, small badges, segmented controls and table containers use the smaller shape roles recorded in the frontmatter. Use gently rounded controls and boards: 6px odds, 7px fields and desktop navigation items, 8px buttons, and 12px fixture cards and wallet surfaces. The login panel uses 14px corners. Desktop dialogs use 15px corners; mobile dialogs have 17px upper corners and square lower corners. Status labels use small 3px corners and remain level. Preserve the geometry and proportions of the official UEFA logo.
 
 ## Components
 
