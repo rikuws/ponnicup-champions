@@ -2,7 +2,7 @@
 
 ## Users and purpose
 
-Champions League is the existing five-person Finnish friend group's private Champions League 2026–27 game. Preserve the established coin-based betting, discreet pre-match picks, leaderboard, scorer contest and awards. Make the longer season comfortable to play a round at a time.
+Pönnicup is the existing five-person Finnish friend group's private Champions League 2026–27 game. Preserve the established coin-based betting, discreet pre-match picks, leaderboard, scorer contest and awards. Make the longer season comfortable to play a round at a time.
 
 The default game starts on 13 October 2026, league-phase matchday 2. Earlier matches are excluded from betting and bonuses. The UEFA standings may include the whole competition.
 
@@ -28,4 +28,4 @@ Support small mobile screens, keyboard input, visible focus, clear status labels
 
 ## Personality
 
-Champions League is the sole visible app identity. Use midnight blue, white and restrained silver throughout the app, with an original star-and-football mark. Keep the familiar Finnish voice and compact fixtures. Red communicates missing picks, errors, losses and destructive actions. Preserve clear status labels and accessible contrast. Avoid casino gloss and decorative analytics that do not help the group play.
+The app is named Pönnicup and covers only the Champions League. Use midnight blue, white and restrained silver throughout the app, with the official UEFA Champions League logo. Use concise, factual Finnish labels and instructions; no marketing slogans, motivational taglines or ornamental copy. Keep compact fixtures. Red communicates missing picks, errors, losses and destructive actions. Preserve clear status labels and accessible contrast. Avoid casino gloss and decorative analytics that do not help the group play.

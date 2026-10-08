@@ -1,6 +1,6 @@
 ---
-name: Champions League
-description: Midnight blue, white and silver for the friend group's compact Finnish Champions League game.
+name: Pönnicup
+description: Pönnicup is a Finnish Champions League game using midnight blue, white and silver.
 colors:
   ink: "oklch(0.2602 0.0477 259.93)"
   midnight: "oklch(0.2005 0.0557 261.22)"
@@ -102,23 +102,23 @@ components:
     rounded: "{rounded.board}"
 ---
 
-# Design System: Champions League
+# Design System: Pönnicup
 
 ## Overview
 
-**Creative North Star: "Euroopan illat, oma porukka"**
+**Identity: Pönnicup · Champions League**
 
-Champions League is the sole visible app identity. Midnight blue chrome frames white fixtures and forms, with restrained silver emphasis and an original geometric star-and-football mark. The familiar Finnish voice, compact gameplay, system typography and established interaction structure remain intact.
+The app title is Pönnicup and the competition is exclusively the Champions League. The official UEFA Champions League logo appears beside the title. Midnight blue chrome frames white fixtures and forms, with restrained silver emphasis. Copy uses plain, factual Finnish without promotional slogans. Compact gameplay, system typography and the established interaction structure remain intact.
 
-The shared implementation is in `src/styles.css`, with the brand lockup in `src/App.tsx` and the chosen direction recorded in `index.html`. This document records the built identity and its explicit saved and pending selections. Finish review disposition: **SHIP — no material fixes required within the approved identity and palette scope.** The final screenshots in `.impeccable/review/` are `champions-desktop.jpg`, `champions-mobile.jpg`, `champions-1280.jpg`, `champions-320.jpg`, `champions-login-desktop.jpg`, `champions-login-mobile.jpg`, `champions-slip-mobile.jpg` and `champions-table-mobile.jpg`. Their fixtures, prices, balances and results are synthetic QA data; they do not establish production game data or deployment state.
+The shared implementation is in `src/styles.css`, with the brand lockup in `src/App.tsx` and page metadata in `index.html`. This document records the identity and its explicit saved and pending selections. The earlier palette review and `champions-*.jpg` screenshots in `.impeccable/review/` predate the Pönnicup title, official logo and slogan removal; they are historical evidence, not a review of this correction. Their fixtures, prices, balances and results are synthetic QA data and do not establish production game data or deployment state.
 
 **Key Characteristics:**
 
 - Midnight blue chrome, white content surfaces and a cool near-white canvas.
 - Restrained silver for the review action, active navigation and emphasis on dark surfaces.
 - Compact fixtures with text-backed status and selection states.
-- A two-line Champions League masthead and original geometric star-and-football mark.
-- Familiar Finnish game vocabulary and preserved mobile control targets.
+- A single-line Pönnicup title beside the official UEFA Champions League logo.
+- Plain, factual Finnish game vocabulary and preserved mobile control targets.
 
 ## Colors
 
@@ -142,7 +142,7 @@ Use the preserved Avenir Next / Gill Sans / Trebuchet MS / Segoe UI system sans-
 
 Page headings use the display role and become 29px on screens at or below 600px; the round heading becomes 26px at or below 360px. Section and card titles use weight rather than a second typeface. The base body size becomes 14px on mobile; mobile form fields use 16px. Fixture names increase from 13px to 14px, and odds from 14px to 16px, on mobile. Compact metadata remains secondary but retains text equivalents for every state.
 
-The brand name has two lines. Its full lockup uses 29px type, a 66px mark and an 11px subtitle; the compact header uses 19px type, a 45px mark and a 9px subtitle. At or below 600px, the full brand becomes 27px and the compact name becomes 18px. Preserve these built proportions.
+The Pönnicup title stays on one line. The full login lockup uses 32px type, an 80×82px logo container and an 11px season label; the compact header uses 24px type and a 54×56px logo container without a subtitle. At or below 600px, the compact title becomes 22px with a 44×46px logo container and the full login title becomes 27px. The logo uses `object-fit: contain` to preserve its original proportions.
 
 ## Layout
 
@@ -162,13 +162,13 @@ Button color transitions last 150ms with ease-out. The floating slip uses a brie
 
 ## Shapes
 
-Use gently rounded controls and boards: 6px odds, 7px fields and desktop navigation items, 8px buttons, and 12px fixture cards and wallet surfaces. The login panel uses 14px corners. Desktop dialogs use 15px corners; mobile dialogs have 17px upper corners and square lower corners. Status labels use small 3px corners and remain level. The star-and-football mark supplies the identity's geometric detail.
+Use gently rounded controls and boards: 6px odds, 7px fields and desktop navigation items, 8px buttons, and 12px fixture cards and wallet surfaces. The login panel uses 14px corners. Desktop dialogs use 15px corners; mobile dialogs have 17px upper corners and square lower corners. Status labels use small 3px corners and remain level. Preserve the geometry and proportions of the official UEFA logo.
 
 ## Components
 
-- **Brand and assets:** The app masthead reads `Champions League` on two lines with `Oman porukan liiga` beneath. The original local vector `public/champions-league.svg` has a 512×512 viewBox, a midnight square, a silver circular football outline and a white central star. It is code-authored artwork, with no external image or image-generation source. Raster icons are derived directly from that SVG using `sharp('public/champions-league.svg').resize(size, size).png().toFile(output)`: `public/apple-touch-icon.png` at 180×180, `public/champions-league-192.png` at 192×192 and `public/champions-league-512.png` at 512×512. Regenerate raster variants from this source. The former trophy asset has been removed.
+- **Brand and assets:** The app masthead reads `Pönnicup`, beside the official UEFA Champions League logo. The full login lockup includes only the factual season label `2026–27`; the header has no brand subtitle. `public/champions-league.svg` is the unchanged 441×419 SVG from [UEFA’s official asset](https://img.uefa.com/imgml/uefacom/ucl/2024/logos/logo_dark.svg). It replaces the earlier code-authored star. `public/apple-touch-icon.png` at 180×180, `public/champions-league-192.png` at 192×192 and `public/champions-league-512.png` at 512×512 are derived from that SVG with Sharp: preserve the white logo using `fit: 'contain'`, center it on midnight blue, and reserve 16% padding at each edge. Regenerate raster variants from the official SVG source. Do not redraw or distort the logo. The former trophy asset remains removed.
 - **Buttons and fields:** Confident and compact. Primary actions use solid action blue, secondary actions use white and a control-line border, and review uses silver. Regular buttons and fields have a 46px minimum height. Primary hover becomes midnight; secondary hover uses panel strong; silver hover becomes white. Keyboard focus uses a 3px outline with a 3px offset, in focus blue on light surfaces and silver on dark chrome. Labels, constraints and disabled states remain visible; touch and keyboard access share the same controls.
-- **Navigation and filters:** Desktop and bottom navigation select a silver-light destination inside midnight chrome, with midnight text and icons. Round filters use a pale blue-gray group with a raised white selected segment and a count badge. Preserve pressed, selected and current semantics. The competition navigation label is `Kilpailu`.
+- **Navigation and filters:** Desktop and bottom navigation select a silver-light destination inside midnight chrome, with midnight text and icons. Round filters use a pale blue-gray group with a raised white selected segment and a count badge. Preserve pressed, selected and current semantics. The competition navigation label is `Kilpailu`; the awards tab is `Palkinnot`.
 - **Fixture board:** Kickoff/status, club identity, three 1X2 prices, own bet, submission count and optional-market disclosure appear in that order. Team crests are decorative beside names and fall back to a neutral shield. Selected odds use action blue, white prices, pale secondary labels and a checkmark; selected hover becomes midnight.
 - **Saved and pending picks:** An unsubmitted pick shows `Odottaa jättämistä` in the status and `Valittu: … · odottaa jättämistä` below the odds. When editing a saved pick, retain the `Jätetty:` row and its existing stake, then show a separate `Uusi valinta:` row. The note reads `Jätetty veto pysyy voimassa, kunnes jätät muutoksen.` The selected button represents the pending choice; it must not imply that the server has saved it. Only a confirmed saved state uses `Jätetty` and its status checkmark.
 - **Locked and unavailable markets:** Locked markets disable changes and expose the group's submitted bets. Unknown odds show `Kertoimet tulossa` and cannot be selected. Status colors always have text counterparts.
@@ -177,10 +177,11 @@ Use gently rounded controls and boards: 6px odds, 7px fields and desktop navigat
 
 ## Do's and Don'ts
 
-- Do preserve the sole Champions League identity, midnight blue, white and silver palette, and original star-and-football mark.
+- Do use Pönnicup as the title, the official UEFA Champions League logo, and the midnight blue, white and silver palette.
 - Do keep saved bets and pending changes visibly separate until the server confirms submission.
 - Do preserve the compact layout, system font stack, mobile control targets and visible keyboard focus.
-- Do use Finnish labels such as `Kierros`, `Pörssi`, `Kilpailu`, `Maalipörssi`, `Kunnia`, `Oma pelikassa`, `Oma panos avoinna`, `Päiväbonus`, `Puuttuu`, `Jätetty`, `Lukittu` and `Palautettu`.
+- Do use Finnish labels such as `Kierros`, `Pörssi`, `Kilpailu`, `Maalipörssi`, `Palkinnot`, `Oma pelikassa`, `Oma panos avoinna`, `Päiväbonus`, `Puuttuu`, `Jätetty`, `Lukittu` and `Palautettu`.
+- Do write plain, factual Finnish labels and instructions; omit decorative taglines and promotional slogans.
 - Don't introduce casino gloss, generic SaaS cards or decorative analytics.
 - Don't convey selection, failure, lock or settlement through color alone.
 - Don't fill missing data with invented fixtures, prices, results or balances.

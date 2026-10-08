@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-10-08T20:18:28.202964+00:00",
-  "title": "Design System: Champions League",
+  "title": "Design System: Pönnicup",
   "extensions": {
     "shadows": [
       {
@@ -123,21 +123,22 @@
     }
   ],
   "narrative": {
-    "northStar": "Euroopan illat, oma porukka",
-    "overview": "Champions League is the sole visible app identity. Midnight blue chrome frames white fixtures and forms, with restrained silver emphasis and an original geometric star-and-football mark. The familiar Finnish voice, compact gameplay, system typography and established interaction structure remain intact.\n\nThe shared implementation is in `src/styles.css`, with the brand lockup in `src/App.tsx` and the chosen direction recorded in `index.html`. This document records the built identity and its explicit saved and pending selections. Finish review disposition: **SHIP — no material fixes required within the approved identity and palette scope.** The final screenshots in `.impeccable/review/` are `champions-desktop.jpg`, `champions-mobile.jpg`, `champions-1280.jpg`, `champions-320.jpg`, `champions-login-desktop.jpg`, `champions-login-mobile.jpg`, `champions-slip-mobile.jpg` and `champions-table-mobile.jpg`. Their fixtures, prices, balances and results are synthetic QA data; they do not establish production game data or deployment state.",
+    "northStar": "Pönnicup · Champions League",
+    "overview": "The app title is Pönnicup and the competition is exclusively the Champions League. The official UEFA Champions League logo appears beside the title. Midnight blue chrome frames white fixtures and forms, with restrained silver emphasis. Copy uses plain, factual Finnish without promotional slogans. Compact gameplay, system typography and the established interaction structure remain intact.\n\nThe shared implementation is in `src/styles.css`, with the brand lockup in `src/App.tsx` and page metadata in `index.html`. This document records the identity and its explicit saved and pending selections. The earlier palette review and `champions-*.jpg` screenshots in `.impeccable/review/` predate the Pönnicup title, official logo and slogan removal; they are historical evidence, not a review of this correction. Their fixtures, prices, balances and results are synthetic QA data and do not establish production game data or deployment state.",
     "keyCharacteristics": [
       "Midnight blue chrome, white content surfaces and a cool near-white canvas.",
       "Restrained silver for the review action, active navigation and emphasis on dark surfaces.",
       "Compact fixtures with text-backed status and selection states.",
-      "A two-line Champions League masthead and original geometric star-and-football mark.",
-      "Familiar Finnish game vocabulary and preserved mobile control targets."
+      "A single-line Pönnicup title beside the official UEFA Champions League logo.",
+      "Plain, factual Finnish game vocabulary and preserved mobile control targets."
     ],
     "rules": [],
     "dos": [
-      "Do preserve the sole Champions League identity, midnight blue, white and silver palette, and original star-and-football mark.",
+      "Do use Pönnicup as the title, the official UEFA Champions League logo, and the midnight blue, white and silver palette.",
       "Do keep saved bets and pending changes visibly separate until the server confirms submission.",
       "Do preserve the compact layout, system font stack, mobile control targets and visible keyboard focus.",
-      "Do use Finnish labels such as `Kierros`, `Pörssi`, `Kilpailu`, `Maalipörssi`, `Kunnia`, `Oma pelikassa`, `Oma panos avoinna`, `Päiväbonus`, `Puuttuu`, `Jätetty`, `Lukittu` and `Palautettu`."
+      "Do use Finnish labels such as `Kierros`, `Pörssi`, `Kilpailu`, `Maalipörssi`, `Palkinnot`, `Oma pelikassa`, `Oma panos avoinna`, `Päiväbonus`, `Puuttuu`, `Jätetty`, `Lukittu` and `Palautettu`.",
+      "Do write plain, factual Finnish labels and instructions; omit decorative taglines and promotional slogans."
     ],
     "donts": [
       "Don't introduce casino gloss, generic SaaS cards or decorative analytics.",

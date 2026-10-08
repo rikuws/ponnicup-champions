@@ -1,6 +1,6 @@
-# Champions League · 2026–27
+# Pönnicup · Champions League 2026–27
 
-A private Champions League app for five friends, with coins, private picks, daily bonuses, rankings and awards. Midnight blue, white and silver define the app, from match screens to its home-screen icon. The default start is **13 October 2026, league matchday 2**. The old `../ponnicup-2026` project is untouched.
+Pönnicup is a private Champions League app for five friends, with coins, private picks, daily bonuses, rankings and awards. Midnight blue, white and silver define the app, from match screens to its home-screen icon. The default start is **13 October 2026, league matchday 2**. The old `../ponnicup-2026` project is untouched.
 
 React + Vite serves a Finnish mobile-first interface. A Node API and scheduled worker use ordinary PostgreSQL transactions. The application does not need Supabase, Netlify or provider API keys to operate.
 
