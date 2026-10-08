@@ -1,0 +1,10 @@
+{
+  "name": "Ponnicup · Mestarien liiga",
+  "short_name": "Ponnicup",
+  "lang": "fi",
+  "start_url": "/today",
+  "display": "standalone",
+  "background_color": "#f5f7f1",
+  "theme_color": "#0a372a",
+  "icons": [{ "src": "/ponnicup.png", "sizes": "any", "type": "image/png", "purpose": "any" }]
+}

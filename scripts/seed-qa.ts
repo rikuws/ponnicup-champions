@@ -1,0 +1,20 @@
+// Synthetic fixtures for isolated browser verification. Never run on the season database.
+import { pool } from '../server/db';
+import { seed } from '../server/seed';
+import { persistFootball, persistOdds } from '../server/ingest';
+import { hashPin } from '../server/auth';
+import type { ImportedFixture, ImportedOdds } from '../shared/imports';
+const url=new URL(process.env.DATABASE_URL||'postgresql://invalid');
+if(!url.pathname.endsWith('_qa'))throw new Error('QA seed requires a database whose name ends in _qa.');
+process.env.INITIAL_PINS_JSON=JSON.stringify({henri:'111111',antti:'222222',ville:'333333',pekka:'444444',riku:'555555'});
+process.env.GAME_START_AT=new Date(Date.now()-86400000).toISOString();
+await seed();
+await pool.query("UPDATE seasons SET name='Ponnicup · Testiympäristö',game_start_at=$1 WHERE id='ucl-2026'",[process.env.GAME_START_AT]);
+await pool.query('UPDATE users SET pin_hash=$1,pin_reset_required=false',[await hashPin('123456')]);
+const clubs=[['arsenal','Arsenal'],['lille','Lille'],['barcelona','Barcelona'],['galatasaray','Galatasaray'],['real','Real Madrid'],['inter','Inter'],['liverpool','Liverpool'],['porto','Porto'],['psg','Paris Saint-Germain'],['city','Manchester City'],['bayern','Bayern München'],['sporting','Sporting CP']];
+const fixtures:ImportedFixture[]=Array.from({length:6},(_,i)=>({id:`qa-match-${i}`,providerId:`qa-${i}`,homeTeam:{id:clubs[i*2][0],name:clubs[i*2][1],shortName:clubs[i*2][1],crest:null},awayTeam:{id:clubs[i*2+1][0],name:clubs[i*2+1][1],shortName:clubs[i*2+1][1],crest:null},kickoffAtUtc:new Date(Date.now()+(i<3?2:4)*3600000).toISOString(),roundId:'qa-round',roundName:'Testikierros · synteettiset ottelut',roundNumber:0,stage:'league',leg:null,tieId:null,status:'scheduled'}));
+await persistFootball({fixtures,results:[],standings:fixtures.flatMap(f=>[f.homeTeam,f.awayTeam]).map((team,i)=>({team,position:i+1,played:2,won:i<5?2:1,drawn:0,lost:i<5?0:1,goalsFor:5,goalsAgainst:2,points:i<5?6:3}))});
+const odds:ImportedOdds[]=fixtures.map(f=>({matchId:f.id,source:'qa-synthetic',capturedAt:new Date().toISOString(),markets:[{type:'main_1x2',selections:[{key:'home',label:f.homeTeam.shortName,kind:'home_win',decimalOdds:1.85},{key:'draw',label:'Tasapeli',kind:'draw',decimalOdds:3.4},{key:'away',label:f.awayTeam.shortName,kind:'away_win',decimalOdds:4.2}]},{type:'exact_score',selections:[{key:'1-0',label:'1–0',kind:'exact_score',decimalOdds:7,scoreHome:1,scoreAway:0},{key:'1-1',label:'1–1',kind:'exact_score',decimalOdds:6.5,scoreHome:1,scoreAway:1}]},{type:'anytime_goalscorer',selections:[{key:'test-player',label:'Testipelaaja',kind:'player_anytime_goalscorer',decimalOdds:2.5,playerId:'qa-player'}]}]}));
+await persistOdds(odds);
+await pool.query("UPDATE sync_status SET enabled=true,last_success_at=now(),last_error=NULL");
+await pool.end();console.info('Isolated QA fixtures ready. Test login only: any player / 123456.');

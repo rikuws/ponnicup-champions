@@ -1,0 +1,3463 @@
+{
+  "source": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures/",
+  "retrievedAt": "2026-09-08",
+  "timeZone": "Europe/Berlin",
+  "fixtures": [
+    {
+      "id": "ucl-2026-league-1-aek-athens-lask",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-aek-athens",
+        "name": "AEK Athens",
+        "shortName": "AEK Athens",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-lask",
+        "name": "LASK",
+        "shortName": "LASK",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-09-08T16:45:00Z",
+      "roundId": "ucl-2026-league-1",
+      "roundName": "Liigavaihe · kierros 1",
+      "roundNumber": 1,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-1-club-brugge-aston-villa",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-club-brugge",
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-aston-villa",
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-09-08T16:45:00Z",
+      "roundId": "ucl-2026-league-1",
+      "roundName": "Liigavaihe · kierros 1",
+      "roundNumber": 1,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-1-borussia-dortmund-villarreal",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-borussia-dortmund",
+        "name": "Borussia Dortmund",
+        "shortName": "Borussia Dortmund",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-villarreal",
+        "name": "Villarreal",
+        "shortName": "Villarreal",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-09-08T19:00:00Z",
+      "roundId": "ucl-2026-league-1",
+      "roundName": "Liigavaihe · kierros 1",
+      "roundNumber": 1,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-1-porto-manchester-city",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-porto",
+        "name": "Porto",
+        "shortName": "Porto",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-manchester-city",
+        "name": "Manchester City",
+        "shortName": "Manchester City",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-09-08T19:00:00Z",
+      "roundId": "ucl-2026-league-1",
+      "roundName": "Liigavaihe · kierros 1",
+      "roundNumber": 1,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-1-lille-real-betis",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-lille",
+        "name": "Lille",
+        "shortName": "Lille",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-real-betis",
+        "name": "Real Betis",
+        "shortName": "Real Betis",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-09-08T19:00:00Z",
+      "roundId": "ucl-2026-league-1",
+      "roundName": "Liigavaihe · kierros 1",
+      "roundNumber": 1,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-1-real-madrid-inter",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-real-madrid",
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-inter",
+        "name": "Inter",
+        "shortName": "Inter",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-09-08T19:00:00Z",
+      "roundId": "ucl-2026-league-1",
+      "roundName": "Liigavaihe · kierros 1",
+      "roundNumber": 1,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-1-barcelona-feyenoord",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-barcelona",
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-feyenoord",
+        "name": "Feyenoord",
+        "shortName": "Feyenoord",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-09-09T16:45:00Z",
+      "roundId": "ucl-2026-league-1",
+      "roundName": "Liigavaihe · kierros 1",
+      "roundNumber": 1,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-1-stuttgart-viking",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-stuttgart",
+        "name": "Stuttgart",
+        "shortName": "Stuttgart",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-viking",
+        "name": "Viking",
+        "shortName": "Viking",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-09-09T16:45:00Z",
+      "roundId": "ucl-2026-league-1",
+      "roundName": "Liigavaihe · kierros 1",
+      "roundNumber": 1,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-1-liverpool-atletico-de-madrid",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-liverpool",
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-atletico-de-madrid",
+        "name": "Atlético de Madrid",
+        "shortName": "Atlético de Madrid",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-09-09T19:00:00Z",
+      "roundId": "ucl-2026-league-1",
+      "roundName": "Liigavaihe · kierros 1",
+      "roundNumber": 1,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-1-paris-saint-germain-slovan-bratislava",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-paris-saint-germain",
+        "name": "Paris Saint-Germain",
+        "shortName": "Paris Saint-Germain",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-slovan-bratislava",
+        "name": "Slovan Bratislava",
+        "shortName": "Slovan Bratislava",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-09-09T19:00:00Z",
+      "roundId": "ucl-2026-league-1",
+      "roundName": "Liigavaihe · kierros 1",
+      "roundNumber": 1,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-1-sporting-cp-galatasaray",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-sporting-cp",
+        "name": "Sporting CP",
+        "shortName": "Sporting CP",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-galatasaray",
+        "name": "Galatasaray",
+        "shortName": "Galatasaray",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-09-09T19:00:00Z",
+      "roundId": "ucl-2026-league-1",
+      "roundName": "Liigavaihe · kierros 1",
+      "roundNumber": 1,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-1-napoli-arsenal",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-napoli",
+        "name": "Napoli",
+        "shortName": "Napoli",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-arsenal",
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-09-09T19:00:00Z",
+      "roundId": "ucl-2026-league-1",
+      "roundName": "Liigavaihe · kierros 1",
+      "roundNumber": 1,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-1-fenerbahce-roma",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-fenerbahce",
+        "name": "Fenerbahçe",
+        "shortName": "Fenerbahçe",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-roma",
+        "name": "Roma",
+        "shortName": "Roma",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-09-10T16:45:00Z",
+      "roundId": "ucl-2026-league-1",
+      "roundName": "Liigavaihe · kierros 1",
+      "roundNumber": 1,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-1-psv-eindhoven-shakhtar-donetsk",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-psv-eindhoven",
+        "name": "PSV Eindhoven",
+        "shortName": "PSV Eindhoven",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-shakhtar-donetsk",
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar Donetsk",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-09-10T16:45:00Z",
+      "roundId": "ucl-2026-league-1",
+      "roundName": "Liigavaihe · kierros 1",
+      "roundNumber": 1,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-1-como-leipzig",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-como",
+        "name": "Como",
+        "shortName": "Como",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-leipzig",
+        "name": "Leipzig",
+        "shortName": "Leipzig",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-09-10T19:00:00Z",
+      "roundId": "ucl-2026-league-1",
+      "roundName": "Liigavaihe · kierros 1",
+      "roundNumber": 1,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-1-bayern-munchen-bodo-glimt",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-bayern-munchen",
+        "name": "Bayern München",
+        "shortName": "Bayern München",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-bodo-glimt",
+        "name": "Bodø/Glimt",
+        "shortName": "Bodø/Glimt",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-09-10T19:00:00Z",
+      "roundId": "ucl-2026-league-1",
+      "roundName": "Liigavaihe · kierros 1",
+      "roundNumber": 1,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-1-manchester-united-sabah",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-manchester-united",
+        "name": "Manchester United",
+        "shortName": "Manchester United",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-sabah",
+        "name": "Sabah",
+        "shortName": "Sabah",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-09-10T19:00:00Z",
+      "roundId": "ucl-2026-league-1",
+      "roundName": "Liigavaihe · kierros 1",
+      "roundNumber": 1,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-1-slavia-praha-lens",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-slavia-praha",
+        "name": "Slavia Praha",
+        "shortName": "Slavia Praha",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-lens",
+        "name": "Lens",
+        "shortName": "Lens",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-09-10T19:00:00Z",
+      "roundId": "ucl-2026-league-1",
+      "roundName": "Liigavaihe · kierros 1",
+      "roundNumber": 1,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-2-lens-sporting-cp",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-lens",
+        "name": "Lens",
+        "shortName": "Lens",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-sporting-cp",
+        "name": "Sporting CP",
+        "shortName": "Sporting CP",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-13T16:45:00Z",
+      "roundId": "ucl-2026-league-2",
+      "roundName": "Liigavaihe · kierros 2",
+      "roundNumber": 2,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-2-sabah-slavia-praha",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-sabah",
+        "name": "Sabah",
+        "shortName": "Sabah",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-slavia-praha",
+        "name": "Slavia Praha",
+        "shortName": "Slavia Praha",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-13T16:45:00Z",
+      "roundId": "ucl-2026-league-2",
+      "roundName": "Liigavaihe · kierros 2",
+      "roundNumber": 2,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-2-arsenal-lille",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-arsenal",
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-lille",
+        "name": "Lille",
+        "shortName": "Lille",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-13T19:00:00Z",
+      "roundId": "ucl-2026-league-2",
+      "roundName": "Liigavaihe · kierros 2",
+      "roundNumber": 2,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-2-atletico-de-madrid-manchester-united",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-atletico-de-madrid",
+        "name": "Atlético de Madrid",
+        "shortName": "Atlético de Madrid",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-manchester-united",
+        "name": "Manchester United",
+        "shortName": "Manchester United",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-13T19:00:00Z",
+      "roundId": "ucl-2026-league-2",
+      "roundName": "Liigavaihe · kierros 2",
+      "roundNumber": 2,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-2-inter-club-brugge",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-inter",
+        "name": "Inter",
+        "shortName": "Inter",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-club-brugge",
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-13T19:00:00Z",
+      "roundId": "ucl-2026-league-2",
+      "roundName": "Liigavaihe · kierros 2",
+      "roundNumber": 2,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-2-galatasaray-barcelona",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-galatasaray",
+        "name": "Galatasaray",
+        "shortName": "Galatasaray",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-barcelona",
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-13T19:00:00Z",
+      "roundId": "ucl-2026-league-2",
+      "roundName": "Liigavaihe · kierros 2",
+      "roundNumber": 2,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-2-leipzig-psv-eindhoven",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-leipzig",
+        "name": "Leipzig",
+        "shortName": "Leipzig",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-psv-eindhoven",
+        "name": "PSV Eindhoven",
+        "shortName": "PSV Eindhoven",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-13T19:00:00Z",
+      "roundId": "ucl-2026-league-2",
+      "roundName": "Liigavaihe · kierros 2",
+      "roundNumber": 2,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-2-viking-bayern-munchen",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-viking",
+        "name": "Viking",
+        "shortName": "Viking",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-bayern-munchen",
+        "name": "Bayern München",
+        "shortName": "Bayern München",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-13T19:00:00Z",
+      "roundId": "ucl-2026-league-2",
+      "roundName": "Liigavaihe · kierros 2",
+      "roundNumber": 2,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-2-villarreal-napoli",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-villarreal",
+        "name": "Villarreal",
+        "shortName": "Villarreal",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-napoli",
+        "name": "Napoli",
+        "shortName": "Napoli",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-13T19:00:00Z",
+      "roundId": "ucl-2026-league-2",
+      "roundName": "Liigavaihe · kierros 2",
+      "roundNumber": 2,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-2-feyenoord-como",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-feyenoord",
+        "name": "Feyenoord",
+        "shortName": "Feyenoord",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-como",
+        "name": "Como",
+        "shortName": "Como",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-14T16:45:00Z",
+      "roundId": "ucl-2026-league-2",
+      "roundName": "Liigavaihe · kierros 2",
+      "roundNumber": 2,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-2-lask-liverpool",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-lask",
+        "name": "LASK",
+        "shortName": "LASK",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-liverpool",
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-14T16:45:00Z",
+      "roundId": "ucl-2026-league-2",
+      "roundName": "Liigavaihe · kierros 2",
+      "roundNumber": 2,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-2-roma-real-madrid",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-roma",
+        "name": "Roma",
+        "shortName": "Roma",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-real-madrid",
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-14T19:00:00Z",
+      "roundId": "ucl-2026-league-2",
+      "roundName": "Liigavaihe · kierros 2",
+      "roundNumber": 2,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-2-aston-villa-fenerbahce",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-aston-villa",
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-fenerbahce",
+        "name": "Fenerbahçe",
+        "shortName": "Fenerbahçe",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-14T19:00:00Z",
+      "roundId": "ucl-2026-league-2",
+      "roundName": "Liigavaihe · kierros 2",
+      "roundNumber": 2,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-2-shakhtar-donetsk-aek-athens",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-shakhtar-donetsk",
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar Donetsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-aek-athens",
+        "name": "AEK Athens",
+        "shortName": "AEK Athens",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-14T19:00:00Z",
+      "roundId": "ucl-2026-league-2",
+      "roundName": "Liigavaihe · kierros 2",
+      "roundNumber": 2,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-2-bodo-glimt-borussia-dortmund",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-bodo-glimt",
+        "name": "Bodø/Glimt",
+        "shortName": "Bodø/Glimt",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-borussia-dortmund",
+        "name": "Borussia Dortmund",
+        "shortName": "Borussia Dortmund",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-14T19:00:00Z",
+      "roundId": "ucl-2026-league-2",
+      "roundName": "Liigavaihe · kierros 2",
+      "roundNumber": 2,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-2-manchester-city-paris-saint-germain",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-manchester-city",
+        "name": "Manchester City",
+        "shortName": "Manchester City",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-paris-saint-germain",
+        "name": "Paris Saint-Germain",
+        "shortName": "Paris Saint-Germain",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-14T19:00:00Z",
+      "roundId": "ucl-2026-league-2",
+      "roundName": "Liigavaihe · kierros 2",
+      "roundNumber": 2,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-2-real-betis-porto",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-real-betis",
+        "name": "Real Betis",
+        "shortName": "Real Betis",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-porto",
+        "name": "Porto",
+        "shortName": "Porto",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-14T19:00:00Z",
+      "roundId": "ucl-2026-league-2",
+      "roundName": "Liigavaihe · kierros 2",
+      "roundNumber": 2,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-2-slovan-bratislava-stuttgart",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-slovan-bratislava",
+        "name": "Slovan Bratislava",
+        "shortName": "Slovan Bratislava",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-stuttgart",
+        "name": "Stuttgart",
+        "shortName": "Stuttgart",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-14T19:00:00Z",
+      "roundId": "ucl-2026-league-2",
+      "roundName": "Liigavaihe · kierros 2",
+      "roundNumber": 2,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-3-fenerbahce-slavia-praha",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-fenerbahce",
+        "name": "Fenerbahçe",
+        "shortName": "Fenerbahçe",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-slavia-praha",
+        "name": "Slavia Praha",
+        "shortName": "Slavia Praha",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-20T16:45:00Z",
+      "roundId": "ucl-2026-league-3",
+      "roundName": "Liigavaihe · kierros 3",
+      "roundNumber": 3,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-3-sabah-borussia-dortmund",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-sabah",
+        "name": "Sabah",
+        "shortName": "Sabah",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-borussia-dortmund",
+        "name": "Borussia Dortmund",
+        "shortName": "Borussia Dortmund",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-20T16:45:00Z",
+      "roundId": "ucl-2026-league-3",
+      "roundName": "Liigavaihe · kierros 3",
+      "roundNumber": 3,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-3-roma-slovan-bratislava",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-roma",
+        "name": "Roma",
+        "shortName": "Roma",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-slovan-bratislava",
+        "name": "Slovan Bratislava",
+        "shortName": "Slovan Bratislava",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-20T19:00:00Z",
+      "roundId": "ucl-2026-league-3",
+      "roundName": "Liigavaihe · kierros 3",
+      "roundNumber": 3,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-3-porto-psv-eindhoven",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-porto",
+        "name": "Porto",
+        "shortName": "Porto",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-psv-eindhoven",
+        "name": "PSV Eindhoven",
+        "shortName": "PSV Eindhoven",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-20T19:00:00Z",
+      "roundId": "ucl-2026-league-3",
+      "roundName": "Liigavaihe · kierros 3",
+      "roundNumber": 3,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-3-liverpool-villarreal",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-liverpool",
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-villarreal",
+        "name": "Villarreal",
+        "shortName": "Villarreal",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-20T19:00:00Z",
+      "roundId": "ucl-2026-league-3",
+      "roundName": "Liigavaihe · kierros 3",
+      "roundNumber": 3,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-3-manchester-city-aek-athens",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-manchester-city",
+        "name": "Manchester City",
+        "shortName": "Manchester City",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-aek-athens",
+        "name": "AEK Athens",
+        "shortName": "AEK Athens",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-20T19:00:00Z",
+      "roundId": "ucl-2026-league-3",
+      "roundName": "Liigavaihe · kierros 3",
+      "roundNumber": 3,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-3-paris-saint-germain-barcelona",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-paris-saint-germain",
+        "name": "Paris Saint-Germain",
+        "shortName": "Paris Saint-Germain",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-barcelona",
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-20T19:00:00Z",
+      "roundId": "ucl-2026-league-3",
+      "roundName": "Liigavaihe · kierros 3",
+      "roundNumber": 3,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-3-napoli-bodo-glimt",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-napoli",
+        "name": "Napoli",
+        "shortName": "Napoli",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-bodo-glimt",
+        "name": "Bodø/Glimt",
+        "shortName": "Bodø/Glimt",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-20T19:00:00Z",
+      "roundId": "ucl-2026-league-3",
+      "roundName": "Liigavaihe · kierros 3",
+      "roundNumber": 3,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-3-stuttgart-atletico-de-madrid",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-stuttgart",
+        "name": "Stuttgart",
+        "shortName": "Stuttgart",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-atletico-de-madrid",
+        "name": "Atlético de Madrid",
+        "shortName": "Atlético de Madrid",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-20T19:00:00Z",
+      "roundId": "ucl-2026-league-3",
+      "roundName": "Liigavaihe · kierros 3",
+      "roundNumber": 3,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-3-como-manchester-united",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-como",
+        "name": "Como",
+        "shortName": "Como",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-manchester-united",
+        "name": "Manchester United",
+        "shortName": "Manchester United",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-21T16:45:00Z",
+      "roundId": "ucl-2026-league-3",
+      "roundName": "Liigavaihe · kierros 3",
+      "roundNumber": 3,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-3-lille-galatasaray",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-lille",
+        "name": "Lille",
+        "shortName": "Lille",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-galatasaray",
+        "name": "Galatasaray",
+        "shortName": "Galatasaray",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-21T16:45:00Z",
+      "roundId": "ucl-2026-league-3",
+      "roundName": "Liigavaihe · kierros 3",
+      "roundNumber": 3,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-3-aston-villa-viking",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-aston-villa",
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-viking",
+        "name": "Viking",
+        "shortName": "Viking",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-21T19:00:00Z",
+      "roundId": "ucl-2026-league-3",
+      "roundName": "Liigavaihe · kierros 3",
+      "roundNumber": 3,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-3-club-brugge-lens",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-club-brugge",
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-lens",
+        "name": "Lens",
+        "shortName": "Lens",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-21T19:00:00Z",
+      "roundId": "ucl-2026-league-3",
+      "roundName": "Liigavaihe · kierros 3",
+      "roundNumber": 3,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-3-bayern-munchen-arsenal",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-bayern-munchen",
+        "name": "Bayern München",
+        "shortName": "Bayern München",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-arsenal",
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-21T19:00:00Z",
+      "roundId": "ucl-2026-league-3",
+      "roundName": "Liigavaihe · kierros 3",
+      "roundNumber": 3,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-3-inter-shakhtar-donetsk",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-inter",
+        "name": "Inter",
+        "shortName": "Inter",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-shakhtar-donetsk",
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar Donetsk",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-21T19:00:00Z",
+      "roundId": "ucl-2026-league-3",
+      "roundName": "Liigavaihe · kierros 3",
+      "roundNumber": 3,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-3-real-madrid-leipzig",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-real-madrid",
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-leipzig",
+        "name": "Leipzig",
+        "shortName": "Leipzig",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-21T19:00:00Z",
+      "roundId": "ucl-2026-league-3",
+      "roundName": "Liigavaihe · kierros 3",
+      "roundNumber": 3,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-3-real-betis-feyenoord",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-real-betis",
+        "name": "Real Betis",
+        "shortName": "Real Betis",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-feyenoord",
+        "name": "Feyenoord",
+        "shortName": "Feyenoord",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-21T19:00:00Z",
+      "roundId": "ucl-2026-league-3",
+      "roundName": "Liigavaihe · kierros 3",
+      "roundNumber": 3,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-3-sporting-cp-lask",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-sporting-cp",
+        "name": "Sporting CP",
+        "shortName": "Sporting CP",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-lask",
+        "name": "LASK",
+        "shortName": "LASK",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-10-21T19:00:00Z",
+      "roundId": "ucl-2026-league-3",
+      "roundName": "Liigavaihe · kierros 3",
+      "roundNumber": 3,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-4-shakhtar-donetsk-sporting-cp",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-shakhtar-donetsk",
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar Donetsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-sporting-cp",
+        "name": "Sporting CP",
+        "shortName": "Sporting CP",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-03T17:45:00Z",
+      "roundId": "ucl-2026-league-4",
+      "roundName": "Liigavaihe · kierros 4",
+      "roundNumber": 4,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-4-galatasaray-stuttgart",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-galatasaray",
+        "name": "Galatasaray",
+        "shortName": "Galatasaray",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-stuttgart",
+        "name": "Stuttgart",
+        "shortName": "Stuttgart",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-03T17:45:00Z",
+      "roundId": "ucl-2026-league-4",
+      "roundName": "Liigavaihe · kierros 4",
+      "roundNumber": 4,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-4-atletico-de-madrid-bayern-munchen",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-atletico-de-madrid",
+        "name": "Atlético de Madrid",
+        "shortName": "Atlético de Madrid",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-bayern-munchen",
+        "name": "Bayern München",
+        "shortName": "Bayern München",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-03T20:00:00Z",
+      "roundId": "ucl-2026-league-4",
+      "roundName": "Liigavaihe · kierros 4",
+      "roundNumber": 4,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-4-barcelona-aston-villa",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-barcelona",
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-aston-villa",
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-03T20:00:00Z",
+      "roundId": "ucl-2026-league-4",
+      "roundName": "Liigavaihe · kierros 4",
+      "roundNumber": 4,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-4-feyenoord-inter",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-feyenoord",
+        "name": "Feyenoord",
+        "shortName": "Feyenoord",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-inter",
+        "name": "Inter",
+        "shortName": "Inter",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-03T20:00:00Z",
+      "roundId": "ucl-2026-league-4",
+      "roundName": "Liigavaihe · kierros 4",
+      "roundNumber": 4,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-4-bodo-glimt-lille",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-bodo-glimt",
+        "name": "Bodø/Glimt",
+        "shortName": "Bodø/Glimt",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-lille",
+        "name": "Lille",
+        "shortName": "Lille",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-03T20:00:00Z",
+      "roundId": "ucl-2026-league-4",
+      "roundName": "Liigavaihe · kierros 4",
+      "roundNumber": 4,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-4-lask-slovan-bratislava",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-lask",
+        "name": "LASK",
+        "shortName": "LASK",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-slovan-bratislava",
+        "name": "Slovan Bratislava",
+        "shortName": "Slovan Bratislava",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-03T20:00:00Z",
+      "roundId": "ucl-2026-league-4",
+      "roundName": "Liigavaihe · kierros 4",
+      "roundNumber": 4,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-4-manchester-united-roma",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-manchester-united",
+        "name": "Manchester United",
+        "shortName": "Manchester United",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-roma",
+        "name": "Roma",
+        "shortName": "Roma",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-03T20:00:00Z",
+      "roundId": "ucl-2026-league-4",
+      "roundName": "Liigavaihe · kierros 4",
+      "roundNumber": 4,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-4-villarreal-paris-saint-germain",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-villarreal",
+        "name": "Villarreal",
+        "shortName": "Villarreal",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-paris-saint-germain",
+        "name": "Paris Saint-Germain",
+        "shortName": "Paris Saint-Germain",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-03T20:00:00Z",
+      "roundId": "ucl-2026-league-4",
+      "roundName": "Liigavaihe · kierros 4",
+      "roundNumber": 4,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-4-aek-athens-real-madrid",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-aek-athens",
+        "name": "AEK Athens",
+        "shortName": "AEK Athens",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-real-madrid",
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-04T17:45:00Z",
+      "roundId": "ucl-2026-league-4",
+      "roundName": "Liigavaihe · kierros 4",
+      "roundNumber": 4,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-4-fenerbahce-liverpool",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-fenerbahce",
+        "name": "Fenerbahçe",
+        "shortName": "Fenerbahçe",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-liverpool",
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-04T17:45:00Z",
+      "roundId": "ucl-2026-league-4",
+      "roundName": "Liigavaihe · kierros 4",
+      "roundNumber": 4,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-4-borussia-dortmund-real-betis",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-borussia-dortmund",
+        "name": "Borussia Dortmund",
+        "shortName": "Borussia Dortmund",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-real-betis",
+        "name": "Real Betis",
+        "shortName": "Real Betis",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-04T20:00:00Z",
+      "roundId": "ucl-2026-league-4",
+      "roundName": "Liigavaihe · kierros 4",
+      "roundNumber": 4,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-4-porto-napoli",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-porto",
+        "name": "Porto",
+        "shortName": "Porto",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-napoli",
+        "name": "Napoli",
+        "shortName": "Napoli",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-04T20:00:00Z",
+      "roundId": "ucl-2026-league-4",
+      "roundName": "Liigavaihe · kierros 4",
+      "roundNumber": 4,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-4-psv-eindhoven-club-brugge",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-psv-eindhoven",
+        "name": "PSV Eindhoven",
+        "shortName": "PSV Eindhoven",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-club-brugge",
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-04T20:00:00Z",
+      "roundId": "ucl-2026-league-4",
+      "roundName": "Liigavaihe · kierros 4",
+      "roundNumber": 4,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-4-leipzig-manchester-city",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-leipzig",
+        "name": "Leipzig",
+        "shortName": "Leipzig",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-manchester-city",
+        "name": "Manchester City",
+        "shortName": "Manchester City",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-04T20:00:00Z",
+      "roundId": "ucl-2026-league-4",
+      "roundName": "Liigavaihe · kierros 4",
+      "roundNumber": 4,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-4-lens-como",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-lens",
+        "name": "Lens",
+        "shortName": "Lens",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-como",
+        "name": "Como",
+        "shortName": "Como",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-04T20:00:00Z",
+      "roundId": "ucl-2026-league-4",
+      "roundName": "Liigavaihe · kierros 4",
+      "roundNumber": 4,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-4-slavia-praha-arsenal",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-slavia-praha",
+        "name": "Slavia Praha",
+        "shortName": "Slavia Praha",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-arsenal",
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-04T20:00:00Z",
+      "roundId": "ucl-2026-league-4",
+      "roundName": "Liigavaihe · kierros 4",
+      "roundNumber": 4,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-4-viking-sabah",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-viking",
+        "name": "Viking",
+        "shortName": "Viking",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-sabah",
+        "name": "Sabah",
+        "shortName": "Sabah",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-04T20:00:00Z",
+      "roundId": "ucl-2026-league-4",
+      "roundName": "Liigavaihe · kierros 4",
+      "roundNumber": 4,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-5-bodo-glimt-lask",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-bodo-glimt",
+        "name": "Bodø/Glimt",
+        "shortName": "Bodø/Glimt",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-lask",
+        "name": "LASK",
+        "shortName": "LASK",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-24T17:45:00Z",
+      "roundId": "ucl-2026-league-5",
+      "roundName": "Liigavaihe · kierros 5",
+      "roundNumber": 5,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-5-galatasaray-aston-villa",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-galatasaray",
+        "name": "Galatasaray",
+        "shortName": "Galatasaray",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-aston-villa",
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-24T17:45:00Z",
+      "roundId": "ucl-2026-league-5",
+      "roundName": "Liigavaihe · kierros 5",
+      "roundNumber": 5,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-5-arsenal-borussia-dortmund",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-arsenal",
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-borussia-dortmund",
+        "name": "Borussia Dortmund",
+        "shortName": "Borussia Dortmund",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-24T20:00:00Z",
+      "roundId": "ucl-2026-league-5",
+      "roundName": "Liigavaihe · kierros 5",
+      "roundNumber": 5,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-5-como-aek-athens",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-como",
+        "name": "Como",
+        "shortName": "Como",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-aek-athens",
+        "name": "AEK Athens",
+        "shortName": "AEK Athens",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-24T20:00:00Z",
+      "roundId": "ucl-2026-league-5",
+      "roundName": "Liigavaihe · kierros 5",
+      "roundNumber": 5,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-5-feyenoord-porto",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-feyenoord",
+        "name": "Feyenoord",
+        "shortName": "Feyenoord",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-porto",
+        "name": "Porto",
+        "shortName": "Porto",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-24T20:00:00Z",
+      "roundId": "ucl-2026-league-5",
+      "roundName": "Liigavaihe · kierros 5",
+      "roundNumber": 5,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-5-manchester-city-napoli",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-manchester-city",
+        "name": "Manchester City",
+        "shortName": "Manchester City",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-napoli",
+        "name": "Napoli",
+        "shortName": "Napoli",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-24T20:00:00Z",
+      "roundId": "ucl-2026-league-5",
+      "roundName": "Liigavaihe · kierros 5",
+      "roundNumber": 5,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-5-leipzig-lens",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-leipzig",
+        "name": "Leipzig",
+        "shortName": "Leipzig",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-lens",
+        "name": "Lens",
+        "shortName": "Lens",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-24T20:00:00Z",
+      "roundId": "ucl-2026-league-5",
+      "roundName": "Liigavaihe · kierros 5",
+      "roundNumber": 5,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-5-real-madrid-psv-eindhoven",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-real-madrid",
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-psv-eindhoven",
+        "name": "PSV Eindhoven",
+        "shortName": "PSV Eindhoven",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-24T20:00:00Z",
+      "roundId": "ucl-2026-league-5",
+      "roundName": "Liigavaihe · kierros 5",
+      "roundNumber": 5,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-5-slovan-bratislava-real-betis",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-slovan-bratislava",
+        "name": "Slovan Bratislava",
+        "shortName": "Slovan Bratislava",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-real-betis",
+        "name": "Real Betis",
+        "shortName": "Real Betis",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-24T20:00:00Z",
+      "roundId": "ucl-2026-league-5",
+      "roundName": "Liigavaihe · kierros 5",
+      "roundNumber": 5,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-5-sabah-barcelona",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-sabah",
+        "name": "Sabah",
+        "shortName": "Sabah",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-barcelona",
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-25T17:45:00Z",
+      "roundId": "ucl-2026-league-5",
+      "roundName": "Liigavaihe · kierros 5",
+      "roundNumber": 5,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-5-slavia-praha-villarreal",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-slavia-praha",
+        "name": "Slavia Praha",
+        "shortName": "Slavia Praha",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-villarreal",
+        "name": "Villarreal",
+        "shortName": "Villarreal",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-25T17:45:00Z",
+      "roundId": "ucl-2026-league-5",
+      "roundName": "Liigavaihe · kierros 5",
+      "roundNumber": 5,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-5-atletico-de-madrid-viking",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-atletico-de-madrid",
+        "name": "Atlético de Madrid",
+        "shortName": "Atlético de Madrid",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-viking",
+        "name": "Viking",
+        "shortName": "Viking",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-25T20:00:00Z",
+      "roundId": "ucl-2026-league-5",
+      "roundName": "Liigavaihe · kierros 5",
+      "roundNumber": 5,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-5-club-brugge-liverpool",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-club-brugge",
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-liverpool",
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-25T20:00:00Z",
+      "roundId": "ucl-2026-league-5",
+      "roundName": "Liigavaihe · kierros 5",
+      "roundNumber": 5,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-5-inter-stuttgart",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-inter",
+        "name": "Inter",
+        "shortName": "Inter",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-stuttgart",
+        "name": "Stuttgart",
+        "shortName": "Stuttgart",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-25T20:00:00Z",
+      "roundId": "ucl-2026-league-5",
+      "roundName": "Liigavaihe · kierros 5",
+      "roundNumber": 5,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-5-shakhtar-donetsk-fenerbahce",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-shakhtar-donetsk",
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar Donetsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-fenerbahce",
+        "name": "Fenerbahçe",
+        "shortName": "Fenerbahçe",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-25T20:00:00Z",
+      "roundId": "ucl-2026-league-5",
+      "roundName": "Liigavaihe · kierros 5",
+      "roundNumber": 5,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-5-lille-bayern-munchen",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-lille",
+        "name": "Lille",
+        "shortName": "Lille",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-bayern-munchen",
+        "name": "Bayern München",
+        "shortName": "Bayern München",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-25T20:00:00Z",
+      "roundId": "ucl-2026-league-5",
+      "roundName": "Liigavaihe · kierros 5",
+      "roundNumber": 5,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-5-paris-saint-germain-roma",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-paris-saint-germain",
+        "name": "Paris Saint-Germain",
+        "shortName": "Paris Saint-Germain",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-roma",
+        "name": "Roma",
+        "shortName": "Roma",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-25T20:00:00Z",
+      "roundId": "ucl-2026-league-5",
+      "roundName": "Liigavaihe · kierros 5",
+      "roundNumber": 5,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-5-sporting-cp-manchester-united",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-sporting-cp",
+        "name": "Sporting CP",
+        "shortName": "Sporting CP",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-manchester-united",
+        "name": "Manchester United",
+        "shortName": "Manchester United",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-11-25T20:00:00Z",
+      "roundId": "ucl-2026-league-5",
+      "roundName": "Liigavaihe · kierros 5",
+      "roundNumber": 5,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-6-viking-feyenoord",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-viking",
+        "name": "Viking",
+        "shortName": "Viking",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-feyenoord",
+        "name": "Feyenoord",
+        "shortName": "Feyenoord",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-12-08T17:45:00Z",
+      "roundId": "ucl-2026-league-6",
+      "roundName": "Liigavaihe · kierros 6",
+      "roundNumber": 6,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-6-villarreal-sabah",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-villarreal",
+        "name": "Villarreal",
+        "shortName": "Villarreal",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-sabah",
+        "name": "Sabah",
+        "shortName": "Sabah",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-12-08T17:45:00Z",
+      "roundId": "ucl-2026-league-6",
+      "roundName": "Liigavaihe · kierros 6",
+      "roundNumber": 6,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-6-aek-athens-galatasaray",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-aek-athens",
+        "name": "AEK Athens",
+        "shortName": "AEK Athens",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-galatasaray",
+        "name": "Galatasaray",
+        "shortName": "Galatasaray",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-12-08T20:00:00Z",
+      "roundId": "ucl-2026-league-6",
+      "roundName": "Liigavaihe · kierros 6",
+      "roundNumber": 6,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-6-roma-sporting-cp",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-roma",
+        "name": "Roma",
+        "shortName": "Roma",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-sporting-cp",
+        "name": "Sporting CP",
+        "shortName": "Sporting CP",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-12-08T20:00:00Z",
+      "roundId": "ucl-2026-league-6",
+      "roundName": "Liigavaihe · kierros 6",
+      "roundNumber": 6,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-6-aston-villa-paris-saint-germain",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-aston-villa",
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-paris-saint-germain",
+        "name": "Paris Saint-Germain",
+        "shortName": "Paris Saint-Germain",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-12-08T20:00:00Z",
+      "roundId": "ucl-2026-league-6",
+      "roundName": "Liigavaihe · kierros 6",
+      "roundNumber": 6,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-6-barcelona-manchester-city",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-barcelona",
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-manchester-city",
+        "name": "Manchester City",
+        "shortName": "Manchester City",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-12-08T20:00:00Z",
+      "roundId": "ucl-2026-league-6",
+      "roundName": "Liigavaihe · kierros 6",
+      "roundNumber": 6,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-6-bayern-munchen-slavia-praha",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-bayern-munchen",
+        "name": "Bayern München",
+        "shortName": "Bayern München",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-slavia-praha",
+        "name": "Slavia Praha",
+        "shortName": "Slavia Praha",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-12-08T20:00:00Z",
+      "roundId": "ucl-2026-league-6",
+      "roundName": "Liigavaihe · kierros 6",
+      "roundNumber": 6,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-6-manchester-united-leipzig",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-manchester-united",
+        "name": "Manchester United",
+        "shortName": "Manchester United",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-leipzig",
+        "name": "Leipzig",
+        "shortName": "Leipzig",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-12-08T20:00:00Z",
+      "roundId": "ucl-2026-league-6",
+      "roundName": "Liigavaihe · kierros 6",
+      "roundNumber": 6,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-6-napoli-club-brugge",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-napoli",
+        "name": "Napoli",
+        "shortName": "Napoli",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-club-brugge",
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-12-08T20:00:00Z",
+      "roundId": "ucl-2026-league-6",
+      "roundName": "Liigavaihe · kierros 6",
+      "roundNumber": 6,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-6-real-betis-como",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-real-betis",
+        "name": "Real Betis",
+        "shortName": "Real Betis",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-como",
+        "name": "Como",
+        "shortName": "Como",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-12-09T17:45:00Z",
+      "roundId": "ucl-2026-league-6",
+      "roundName": "Liigavaihe · kierros 6",
+      "roundNumber": 6,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-6-slovan-bratislava-shakhtar-donetsk",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-slovan-bratislava",
+        "name": "Slovan Bratislava",
+        "shortName": "Slovan Bratislava",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-shakhtar-donetsk",
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar Donetsk",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-12-09T17:45:00Z",
+      "roundId": "ucl-2026-league-6",
+      "roundName": "Liigavaihe · kierros 6",
+      "roundNumber": 6,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-6-arsenal-real-madrid",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-arsenal",
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-real-madrid",
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-12-09T20:00:00Z",
+      "roundId": "ucl-2026-league-6",
+      "roundName": "Liigavaihe · kierros 6",
+      "roundNumber": 6,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-6-borussia-dortmund-inter",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-borussia-dortmund",
+        "name": "Borussia Dortmund",
+        "shortName": "Borussia Dortmund",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-inter",
+        "name": "Inter",
+        "shortName": "Inter",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-12-09T20:00:00Z",
+      "roundId": "ucl-2026-league-6",
+      "roundName": "Liigavaihe · kierros 6",
+      "roundNumber": 6,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-6-lask-fenerbahce",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-lask",
+        "name": "LASK",
+        "shortName": "LASK",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-fenerbahce",
+        "name": "Fenerbahçe",
+        "shortName": "Fenerbahçe",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-12-09T20:00:00Z",
+      "roundId": "ucl-2026-league-6",
+      "roundName": "Liigavaihe · kierros 6",
+      "roundNumber": 6,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-6-liverpool-porto",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-liverpool",
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-porto",
+        "name": "Porto",
+        "shortName": "Porto",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-12-09T20:00:00Z",
+      "roundId": "ucl-2026-league-6",
+      "roundName": "Liigavaihe · kierros 6",
+      "roundNumber": 6,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-6-psv-eindhoven-atletico-de-madrid",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-psv-eindhoven",
+        "name": "PSV Eindhoven",
+        "shortName": "PSV Eindhoven",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-atletico-de-madrid",
+        "name": "Atlético de Madrid",
+        "shortName": "Atlético de Madrid",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-12-09T20:00:00Z",
+      "roundId": "ucl-2026-league-6",
+      "roundName": "Liigavaihe · kierros 6",
+      "roundNumber": 6,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-6-lens-bodo-glimt",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-lens",
+        "name": "Lens",
+        "shortName": "Lens",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-bodo-glimt",
+        "name": "Bodø/Glimt",
+        "shortName": "Bodø/Glimt",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-12-09T20:00:00Z",
+      "roundId": "ucl-2026-league-6",
+      "roundName": "Liigavaihe · kierros 6",
+      "roundNumber": 6,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-6-stuttgart-lille",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-stuttgart",
+        "name": "Stuttgart",
+        "shortName": "Stuttgart",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-lille",
+        "name": "Lille",
+        "shortName": "Lille",
+        "crest": null
+      },
+      "kickoffAtUtc": "2026-12-09T20:00:00Z",
+      "roundId": "ucl-2026-league-6",
+      "roundName": "Liigavaihe · kierros 6",
+      "roundNumber": 6,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-7-bodo-glimt-atletico-de-madrid",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-bodo-glimt",
+        "name": "Bodø/Glimt",
+        "shortName": "Bodø/Glimt",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-atletico-de-madrid",
+        "name": "Atlético de Madrid",
+        "shortName": "Atlético de Madrid",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-19T17:45:00Z",
+      "roundId": "ucl-2026-league-7",
+      "roundName": "Liigavaihe · kierros 7",
+      "roundNumber": 7,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-7-galatasaray-feyenoord",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-galatasaray",
+        "name": "Galatasaray",
+        "shortName": "Galatasaray",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-feyenoord",
+        "name": "Feyenoord",
+        "shortName": "Feyenoord",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-19T17:45:00Z",
+      "roundId": "ucl-2026-league-7",
+      "roundName": "Liigavaihe · kierros 7",
+      "roundNumber": 7,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-7-aek-athens-roma",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-aek-athens",
+        "name": "AEK Athens",
+        "shortName": "AEK Athens",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-roma",
+        "name": "Roma",
+        "shortName": "Roma",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-19T20:00:00Z",
+      "roundId": "ucl-2026-league-7",
+      "roundName": "Liigavaihe · kierros 7",
+      "roundNumber": 7,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-7-aston-villa-borussia-dortmund",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-aston-villa",
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-borussia-dortmund",
+        "name": "Borussia Dortmund",
+        "shortName": "Borussia Dortmund",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-19T20:00:00Z",
+      "roundId": "ucl-2026-league-7",
+      "roundName": "Liigavaihe · kierros 7",
+      "roundNumber": 7,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-7-inter-liverpool",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-inter",
+        "name": "Inter",
+        "shortName": "Inter",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-liverpool",
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-19T20:00:00Z",
+      "roundId": "ucl-2026-league-7",
+      "roundName": "Liigavaihe · kierros 7",
+      "roundNumber": 7,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-7-porto-slavia-praha",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-porto",
+        "name": "Porto",
+        "shortName": "Porto",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-slavia-praha",
+        "name": "Slavia Praha",
+        "shortName": "Slavia Praha",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-19T20:00:00Z",
+      "roundId": "ucl-2026-league-7",
+      "roundName": "Liigavaihe · kierros 7",
+      "roundNumber": 7,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-7-lille-slovan-bratislava",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-lille",
+        "name": "Lille",
+        "shortName": "Lille",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-slovan-bratislava",
+        "name": "Slovan Bratislava",
+        "shortName": "Slovan Bratislava",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-19T20:00:00Z",
+      "roundId": "ucl-2026-league-7",
+      "roundName": "Liigavaihe · kierros 7",
+      "roundNumber": 7,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-7-real-madrid-lask",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-real-madrid",
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-lask",
+        "name": "LASK",
+        "shortName": "LASK",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-19T20:00:00Z",
+      "roundId": "ucl-2026-league-7",
+      "roundName": "Liigavaihe · kierros 7",
+      "roundNumber": 7,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-7-stuttgart-club-brugge",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-stuttgart",
+        "name": "Stuttgart",
+        "shortName": "Stuttgart",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-club-brugge",
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-19T20:00:00Z",
+      "roundId": "ucl-2026-league-7",
+      "roundName": "Liigavaihe · kierros 7",
+      "roundNumber": 7,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-7-fenerbahce-villarreal",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-fenerbahce",
+        "name": "Fenerbahçe",
+        "shortName": "Fenerbahçe",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-villarreal",
+        "name": "Villarreal",
+        "shortName": "Villarreal",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-20T17:45:00Z",
+      "roundId": "ucl-2026-league-7",
+      "roundName": "Liigavaihe · kierros 7",
+      "roundNumber": 7,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-7-sabah-napoli",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-sabah",
+        "name": "Sabah",
+        "shortName": "Sabah",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-napoli",
+        "name": "Napoli",
+        "shortName": "Napoli",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-20T17:45:00Z",
+      "roundId": "ucl-2026-league-7",
+      "roundName": "Liigavaihe · kierros 7",
+      "roundNumber": 7,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-7-como-paris-saint-germain",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-como",
+        "name": "Como",
+        "shortName": "Como",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-paris-saint-germain",
+        "name": "Paris Saint-Germain",
+        "shortName": "Paris Saint-Germain",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-20T20:00:00Z",
+      "roundId": "ucl-2026-league-7",
+      "roundName": "Liigavaihe · kierros 7",
+      "roundNumber": 7,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-7-manchester-united-bayern-munchen",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-manchester-united",
+        "name": "Manchester United",
+        "shortName": "Manchester United",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-bayern-munchen",
+        "name": "Bayern München",
+        "shortName": "Bayern München",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-20T20:00:00Z",
+      "roundId": "ucl-2026-league-7",
+      "roundName": "Liigavaihe · kierros 7",
+      "roundNumber": 7,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-7-leipzig-shakhtar-donetsk",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-leipzig",
+        "name": "Leipzig",
+        "shortName": "Leipzig",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-shakhtar-donetsk",
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar Donetsk",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-20T20:00:00Z",
+      "roundId": "ucl-2026-league-7",
+      "roundName": "Liigavaihe · kierros 7",
+      "roundNumber": 7,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-7-lens-manchester-city",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-lens",
+        "name": "Lens",
+        "shortName": "Lens",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-manchester-city",
+        "name": "Manchester City",
+        "shortName": "Manchester City",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-20T20:00:00Z",
+      "roundId": "ucl-2026-league-7",
+      "roundName": "Liigavaihe · kierros 7",
+      "roundNumber": 7,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-7-real-betis-arsenal",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-real-betis",
+        "name": "Real Betis",
+        "shortName": "Real Betis",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-arsenal",
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-20T20:00:00Z",
+      "roundId": "ucl-2026-league-7",
+      "roundName": "Liigavaihe · kierros 7",
+      "roundNumber": 7,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-7-sporting-cp-barcelona",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-sporting-cp",
+        "name": "Sporting CP",
+        "shortName": "Sporting CP",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-barcelona",
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-20T20:00:00Z",
+      "roundId": "ucl-2026-league-7",
+      "roundName": "Liigavaihe · kierros 7",
+      "roundNumber": 7,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-7-viking-psv-eindhoven",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-viking",
+        "name": "Viking",
+        "shortName": "Viking",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-psv-eindhoven",
+        "name": "PSV Eindhoven",
+        "shortName": "PSV Eindhoven",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-20T20:00:00Z",
+      "roundId": "ucl-2026-league-7",
+      "roundName": "Liigavaihe · kierros 7",
+      "roundNumber": 7,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-8-arsenal-sabah",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-arsenal",
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-sabah",
+        "name": "Sabah",
+        "shortName": "Sabah",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-27T20:00:00Z",
+      "roundId": "ucl-2026-league-8",
+      "roundName": "Liigavaihe · kierros 8",
+      "roundNumber": 8,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-8-roma-lille",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-roma",
+        "name": "Roma",
+        "shortName": "Roma",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-lille",
+        "name": "Lille",
+        "shortName": "Lille",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-27T20:00:00Z",
+      "roundId": "ucl-2026-league-8",
+      "roundName": "Liigavaihe · kierros 8",
+      "roundNumber": 8,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-8-atletico-de-madrid-fenerbahce",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-atletico-de-madrid",
+        "name": "Atlético de Madrid",
+        "shortName": "Atlético de Madrid",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-fenerbahce",
+        "name": "Fenerbahçe",
+        "shortName": "Fenerbahçe",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-27T20:00:00Z",
+      "roundId": "ucl-2026-league-8",
+      "roundName": "Liigavaihe · kierros 8",
+      "roundNumber": 8,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-8-borussia-dortmund-aek-athens",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-borussia-dortmund",
+        "name": "Borussia Dortmund",
+        "shortName": "Borussia Dortmund",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-aek-athens",
+        "name": "AEK Athens",
+        "shortName": "AEK Athens",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-27T20:00:00Z",
+      "roundId": "ucl-2026-league-8",
+      "roundName": "Liigavaihe · kierros 8",
+      "roundNumber": 8,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-8-club-brugge-bodo-glimt",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-club-brugge",
+        "name": "Club Brugge",
+        "shortName": "Club Brugge",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-bodo-glimt",
+        "name": "Bodø/Glimt",
+        "shortName": "Bodø/Glimt",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-27T20:00:00Z",
+      "roundId": "ucl-2026-league-8",
+      "roundName": "Liigavaihe · kierros 8",
+      "roundNumber": 8,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-8-bayern-munchen-real-betis",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-bayern-munchen",
+        "name": "Bayern München",
+        "shortName": "Bayern München",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-real-betis",
+        "name": "Real Betis",
+        "shortName": "Real Betis",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-27T20:00:00Z",
+      "roundId": "ucl-2026-league-8",
+      "roundName": "Liigavaihe · kierros 8",
+      "roundNumber": 8,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-8-barcelona-como",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-barcelona",
+        "name": "Barcelona",
+        "shortName": "Barcelona",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-como",
+        "name": "Como",
+        "shortName": "Como",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-27T20:00:00Z",
+      "roundId": "ucl-2026-league-8",
+      "roundName": "Liigavaihe · kierros 8",
+      "roundNumber": 8,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-8-shakhtar-donetsk-real-madrid",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-shakhtar-donetsk",
+        "name": "Shakhtar Donetsk",
+        "shortName": "Shakhtar Donetsk",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-real-madrid",
+        "name": "Real Madrid",
+        "shortName": "Real Madrid",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-27T20:00:00Z",
+      "roundId": "ucl-2026-league-8",
+      "roundName": "Liigavaihe · kierros 8",
+      "roundNumber": 8,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-8-feyenoord-leipzig",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-feyenoord",
+        "name": "Feyenoord",
+        "shortName": "Feyenoord",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-leipzig",
+        "name": "Leipzig",
+        "shortName": "Leipzig",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-27T20:00:00Z",
+      "roundId": "ucl-2026-league-8",
+      "roundName": "Liigavaihe · kierros 8",
+      "roundNumber": 8,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-8-lask-porto",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-lask",
+        "name": "LASK",
+        "shortName": "LASK",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-porto",
+        "name": "Porto",
+        "shortName": "Porto",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-27T20:00:00Z",
+      "roundId": "ucl-2026-league-8",
+      "roundName": "Liigavaihe · kierros 8",
+      "roundNumber": 8,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-8-liverpool-lens",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-liverpool",
+        "name": "Liverpool",
+        "shortName": "Liverpool",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-lens",
+        "name": "Lens",
+        "shortName": "Lens",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-27T20:00:00Z",
+      "roundId": "ucl-2026-league-8",
+      "roundName": "Liigavaihe · kierros 8",
+      "roundNumber": 8,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-8-manchester-city-sporting-cp",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-manchester-city",
+        "name": "Manchester City",
+        "shortName": "Manchester City",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-sporting-cp",
+        "name": "Sporting CP",
+        "shortName": "Sporting CP",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-27T20:00:00Z",
+      "roundId": "ucl-2026-league-8",
+      "roundName": "Liigavaihe · kierros 8",
+      "roundNumber": 8,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-8-paris-saint-germain-galatasaray",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-paris-saint-germain",
+        "name": "Paris Saint-Germain",
+        "shortName": "Paris Saint-Germain",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-galatasaray",
+        "name": "Galatasaray",
+        "shortName": "Galatasaray",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-27T20:00:00Z",
+      "roundId": "ucl-2026-league-8",
+      "roundName": "Liigavaihe · kierros 8",
+      "roundNumber": 8,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-8-psv-eindhoven-stuttgart",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-psv-eindhoven",
+        "name": "PSV Eindhoven",
+        "shortName": "PSV Eindhoven",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-stuttgart",
+        "name": "Stuttgart",
+        "shortName": "Stuttgart",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-27T20:00:00Z",
+      "roundId": "ucl-2026-league-8",
+      "roundName": "Liigavaihe · kierros 8",
+      "roundNumber": 8,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-8-slavia-praha-aston-villa",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-slavia-praha",
+        "name": "Slavia Praha",
+        "shortName": "Slavia Praha",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-aston-villa",
+        "name": "Aston Villa",
+        "shortName": "Aston Villa",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-27T20:00:00Z",
+      "roundId": "ucl-2026-league-8",
+      "roundName": "Liigavaihe · kierros 8",
+      "roundNumber": 8,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-8-napoli-viking",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-napoli",
+        "name": "Napoli",
+        "shortName": "Napoli",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-viking",
+        "name": "Viking",
+        "shortName": "Viking",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-27T20:00:00Z",
+      "roundId": "ucl-2026-league-8",
+      "roundName": "Liigavaihe · kierros 8",
+      "roundNumber": 8,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-8-villarreal-manchester-united",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-villarreal",
+        "name": "Villarreal",
+        "shortName": "Villarreal",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-manchester-united",
+        "name": "Manchester United",
+        "shortName": "Manchester United",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-27T20:00:00Z",
+      "roundId": "ucl-2026-league-8",
+      "roundName": "Liigavaihe · kierros 8",
+      "roundNumber": 8,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    },
+    {
+      "id": "ucl-2026-league-8-slovan-bratislava-inter",
+      "providerId": "uefa-public-calendar",
+      "homeTeam": {
+        "id": "uefa-slovan-bratislava",
+        "name": "Slovan Bratislava",
+        "shortName": "Slovan Bratislava",
+        "crest": null
+      },
+      "awayTeam": {
+        "id": "uefa-inter",
+        "name": "Inter",
+        "shortName": "Inter",
+        "crest": null
+      },
+      "kickoffAtUtc": "2027-01-27T20:00:00Z",
+      "roundId": "ucl-2026-league-8",
+      "roundName": "Liigavaihe · kierros 8",
+      "roundNumber": 8,
+      "stage": "league",
+      "leg": null,
+      "tieId": null,
+      "status": "scheduled"
+    }
+  ]
+}

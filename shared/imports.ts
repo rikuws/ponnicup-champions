@@ -1,0 +1,4 @@
+import type { Stage, Team, ClubStanding, ResultInput } from './contracts';
+export type ImportedFixture = { id: string; providerId: string; homeTeam: Team; awayTeam: Team; kickoffAtUtc: string; roundId: string; roundName: string; roundNumber: number; stage: Stage; leg: number | null; tieId: string | null; status: 'scheduled' | 'live' | 'final' | 'postponed' | 'cancelled' };
+export type ImportedOdds = { matchId: string; source: string; capturedAt: string; markets: { type: 'main_1x2' | 'exact_score' | 'anytime_goalscorer'; selections: { key: string; label: string; kind: 'home_win' | 'draw' | 'away_win' | 'exact_score' | 'player_anytime_goalscorer'; decimalOdds: number; scoreHome?: number; scoreAway?: number; playerId?: string }[] }[] };
+export type FootballImport = { fixtures: ImportedFixture[]; standings: ClubStanding[]; results: ResultInput[]; warnings?: string[] };

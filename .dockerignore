@@ -1,0 +1,11 @@
+node_modules
+dist
+.git
+.local
+.env
+.env.*
+.impeccable
+.codex
+.agents
+tests
+*.log
