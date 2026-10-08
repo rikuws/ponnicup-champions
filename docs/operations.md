@@ -4,11 +4,11 @@ This runbook covers the new Champions League application. The old World Cup repo
 
 ## Current release checkpoint
 
-As of 8 September 2026, local build and 67 automated tests passed. A local logical backup was restored into a separate database and verified to contain 5 users, 144 fixtures, 36 clubs and 5,000 starting coins. That is **local restore proof**, not Railway recovery proof.
+As of 8 October 2026, the production build and all **76 automated tests** pass, including the real PostgreSQL and HTTP suites with no skips. `npm run test:full` provisions three isolated disposable databases and cleans up afterward; GitHub Actions runs the same checks. Knockout creation, cross-round leg display, advancement after corrections, market reopening and persisted result evidence have regression coverage. Isolated browser verification covered a two-leg aggregate with extra time and saving a correction without losing scorer evidence.
 
-Railway PostgreSQL is provisioned. `web` and `sync` are configured; the web image has not yet been deployed at this checkpoint. Upload of the initial private PIN mapping awaits user approval. The intended application origin is [https://web-production-71ec.up.railway.app](https://web-production-71ec.up.railway.app).
+A fresh Railway status read reports `web`, `sync`, and `Postgres` **offline**. The intended application origin [web-production-71ec.up.railway.app](https://web-production-71ec.up.railway.app) returns HTTP 404 for `/api/health`. No production activation was performed during this implementation audit.
 
-Automatic Railway backups were **not enabled or verified**: the schedule mutation returned `OAUTH_INSUFFICIENT_GRANT`, although other project operations were allowed. Do not infer backup coverage from the existing database volume, successful application tests or the local restore drill.
+The earlier local logical backup/restore verified 5 users, 144 fixtures, 36 clubs and 5,000 starting coins. That is historical **local restore proof**, not Railway recovery proof. Railway backups remain unverified; the earlier schedule mutation returned `OAUTH_INSUFFICIENT_GRANT`. Confirm current runtime configuration, secure bootstrap access and recovery coverage before launching.
 
 ## Services and configuration
 
@@ -76,12 +76,12 @@ The seed imports the [UEFA calendar snapshot](../server/data/ucl-2026-fixtures.j
 The admin logs in as Riku and completes the mandatory PIN change. Under **Ylläpito**:
 
 - **Syötä kertoimet:** choose a future fixture; supply 1/X/2 prices and a source/reason. Optional score lines use `home-away;odds`, and scorer lines use `Full Player Name;odds`. Blank optional fields do not manufacture those markets. Existing bets retain their captured prices.
-- **Lisää ottelu:** add a verified fixture, Finnish kickoff time and round. For two-leg rounds, select the leg and reuse the same tie for the return match. Avoid duplicating fixtures already in the calendar.
-- **Tuloksen korjaus:** select the round/match and enter the 90-minute result. For knockouts, final scores may include extra time but must exclude shootout tallies. Advancement is about the whole tie.
+- **Lisää ottelu:** add a verified fixture, Finnish kickoff time and round. A first leg creates its tie automatically. For the second leg, select the existing incomplete tie; the form reverses the clubs and the server verifies the later kickoff. Finals are single matches. Avoid duplicating fixtures already in the calendar.
+- **Tuloksen korjaus:** select the round/match; stored extra-time, scorer and participation evidence is prefilled. Enter the 90-minute result. For knockouts, final scores may include extra time but must exclude shootout tallies. Advancement is about the whole tie; correcting the first-leg score invalidates an obsolete separately confirmed winner. Nonfinal statuses clear settlement evidence. Returning a future match to **Ajastettu** reopens priced markets; unpriced markets remain closed.
 - **Maalintekijät ja osallistuminen:** separately mark appearances, verified DNPs and scorers. Unknown participation stays unmarked and unresolved. Confirm only verified evidence.
 - **Palauta automaattinen tulospäivitys:** leave unchecked to protect a manual result from future provider refreshes. Check only when intentionally returning authority to the provider.
 
-Every manual change requires a reason and appears in the audit log. Confirm the resulting standings, wallet and bet states after saving. For postponed or cancelled matches, use the explicit result status and inspect refunds/held bets. Do not repair balances by editing ledger rows; settlement corrections preserve their history.
+Every manual change requires a reason and appears in the audit log. Confirm the resulting standings, wallet and bet states after saving. For postponed or cancelled matches, use the explicit result status and inspect refunds/held bets. Do not repair balances by editing ledger rows; settlement corrections preserve their history. There is no direct kickoff-date editor. If a fixture with bet history moves to another Finnish playing date, ingestion holds the change: cancel the old fixture to refund its bets, then add a verified replacement and its prices. For a knockout replacement, reconcile its tie linkage before resuming ingestion; do not create duplicate legs in the same tie.
 
 ## Add providers later
 

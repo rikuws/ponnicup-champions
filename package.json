@@ -15,6 +15,7 @@
     "db:seed": "node --env-file-if-exists=.env --import tsx server/seed.ts",
     "sync": "node --env-file-if-exists=.env --import tsx server/sync.ts",
     "test": "vitest run",
+    "test:full": "node scripts/test-full.mjs",
     "typecheck": "tsc --noEmit",
     "qa:seed": "node --import tsx scripts/seed-qa.ts"
   },

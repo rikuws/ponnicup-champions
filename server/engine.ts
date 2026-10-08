@@ -238,8 +238,9 @@ function validateResult(input: ResultInput) {
 }
 export async function applyResult(input: ResultInput, actorId?: string): Promise<void> {
   validateResult(input);
-  const normalized = { status:input.status,homeScore:input.homeScore,awayScore:input.awayScore,homeScoreFinal:input.homeScoreFinal??null,awayScoreFinal:input.awayScoreFinal??null,
-    advancingTeamId:input.advancingTeamId??null,scorerPlayerIds:[...new Set(input.scorerPlayerIds??[])].sort(),appearedPlayerIds:[...new Set(input.appearedPlayerIds??[])].sort(),registeredPlayerIds:[...new Set(input.registeredPlayerIds??[])].sort(),scorerDataComplete:input.scorerDataComplete??false };
+  const final=input.status==='final';const scored=final||input.status==='live';
+  const normalized = { status:input.status,homeScore:scored?input.homeScore:null,awayScore:scored?input.awayScore:null,homeScoreFinal:final?(input.homeScoreFinal??null):null,awayScoreFinal:final?(input.awayScoreFinal??null):null,
+    advancingTeamId:final?(input.advancingTeamId??null):null,scorerPlayerIds:final?[...new Set(input.scorerPlayerIds??[])].sort():[],appearedPlayerIds:final?[...new Set(input.appearedPlayerIds??[])].sort():[],registeredPlayerIds:final?[...new Set(input.registeredPlayerIds??[])].sort():[],scorerDataComplete:final&&(input.scorerDataComplete??false) };
   const hash=fingerprint(normalized);
   await transaction(async (db)=>{
     await lockGame(db);
@@ -252,6 +253,9 @@ export async function applyResult(input: ResultInput, actorId?: string): Promise
     } else if (match.result_override) return;
     const override=!!actorId && !input.releaseOverride;
     if (match.result_fingerprint===hash) {
+      // Repair a scheduled market left locked by an older result import without
+      // requiring a made-up score change or rewriting its immutable prices.
+      if(normalized.status==='scheduled'&&+new Date(match.kickoff_at)>Date.now())await db.query(`UPDATE markets m SET status=CASE WHEN EXISTS(SELECT 1 FROM selections s JOIN odds_snapshots o ON o.selection_id=s.id WHERE s.market_id=m.id) THEN 'open' ELSE 'draft' END WHERE m.match_id=$1 AND m.status='locked'`,[input.matchId]);
       if(match.result_override!==override) {
         await db.query('UPDATE matches SET result_override=$2 WHERE id=$1',[input.matchId,override]);
         await db.query('INSERT INTO audit_log(actor_id,action,reason,detail) VALUES ($1,$2,$3,$4)',[actorId??null,override?'result_override_enabled':'result_override_released',input.reason.trim(),JSON.stringify({matchId:input.matchId})]);
@@ -263,6 +267,12 @@ export async function applyResult(input: ResultInput, actorId?: string): Promise
     await db.query(`UPDATE matches SET status=$2,home_score=$3,away_score=$4,home_score_final=$5,away_score_final=$6,
       advancing_team_id=$7,scorer_player_ids=$8,appeared_player_ids=$9,registered_player_ids=$10,scorer_data_complete=$11,result_fingerprint=$12,result_override=$13 WHERE id=$1`,
       [input.matchId,normalized.status,normalized.homeScore,normalized.awayScore,normalized.homeScoreFinal,normalized.awayScoreFinal,normalized.advancingTeamId,normalized.scorerPlayerIds,normalized.appearedPlayerIds,normalized.registeredPlayerIds,normalized.scorerDataComplete,hash,override]);
+    // A winner verified against the old first-leg result is no longer evidence
+    // of progression after that result changes. Re-importing the deciding leg
+    // can establish it again, including when its own score did not change.
+    if (match.tie_id && match.leg===1 && (match.status!==normalized.status || match.home_score!==normalized.homeScore || match.away_score!==normalized.awayScore || match.home_score_final!==normalized.homeScoreFinal || match.away_score_final!==normalized.awayScoreFinal)) {
+      await db.query('UPDATE matches SET advancing_team_id=NULL,result_fingerprint=NULL WHERE season_id=$1 AND tie_id=$2 AND id<>$3 AND advancing_team_id IS NOT NULL',[match.season_id,match.tie_id,match.id]);
+    }
     const markets=(await db.query('SELECT * FROM markets WHERE match_id=$1 ORDER BY id FOR UPDATE',[input.matchId])).rows;
     for (const market of markets) {
       const bets=(await db.query(`${betSelect} WHERE b.market_id=$1 AND b.status<>'cancelled' ORDER BY b.user_id,b.id FOR UPDATE OF b`,[market.id])).rows;
@@ -297,7 +307,8 @@ export async function applyResult(input: ResultInput, actorId?: string): Promise
       }
       // Even a market with no bets stays pending when its data is incomplete.
       if (market.type==='anytime_goalscorer' && input.status==='final' && !normalized.scorerDataComplete) pending=true;
-      const marketStatus=input.status==='cancelled'?'voided':input.status==='final' && !pending?'settled':market.status==='draft'?'draft':'locked';
+      const hasPrices=(await db.query('SELECT EXISTS(SELECT 1 FROM selections s JOIN odds_snapshots o ON o.selection_id=s.id WHERE s.market_id=$1) AS present',[market.id])).rows[0].present;
+      const marketStatus=input.status==='cancelled'?'voided':input.status==='final' && !pending?'settled':input.status==='scheduled'&&+new Date(match.kickoff_at)>Date.now()?(hasPrices?'open':'draft'):market.status==='draft'?'draft':'locked';
       await db.query('UPDATE markets SET status=$2 WHERE id=$1',[market.id,marketStatus]);
     }
     await db.query('INSERT INTO audit_log(actor_id,action,reason,detail) VALUES ($1,$2,$3,$4)',[actorId??null,'match_result',input.reason.trim(),JSON.stringify({matchId:input.matchId,before:{status:match.status,homeScore:match.home_score,awayScore:match.away_score},after:normalized,resultOverride:override})]);
@@ -426,7 +437,8 @@ export async function getGame(user:User,roundId?:string):Promise<GameSnapshot> {
         return {id:market.id,type:market.type,status:locked&&market.status==='open'?'locked':market.status,required:market.required,selections,userBet:current?mapBet(current):null,revealedBets:locked?bets.map(mapBet):[]};
       });
       return {id:match.id,roundId:match.round_id,homeTeam:teams.get(match.home_team_id)!,awayTeam:teams.get(match.away_team_id)!,kickoffAtUtc:iso(match.kickoff_at),dateFinland:day(match.date_finland),stage:match.stage,status:match.status,leg:match.leg,tieId:match.tie_id,homeScore:match.home_score,awayScore:match.away_score,
-        eligible:+new Date(match.kickoff_at)>=+new Date(season.gameStartAt),submittedMainBets:betRows.filter(bet=>bet.type==='main_1x2'&&bet.status!=='cancelled'&&markets.some(m=>m.id===bet.market_id)).length,markets};
+        eligible:+new Date(match.kickoff_at)>=+new Date(season.gameStartAt),submittedMainBets:betRows.filter(bet=>bet.type==='main_1x2'&&bet.status!=='cancelled'&&markets.some(m=>m.id===bet.market_id)).length,markets,
+        result:{homeScoreFinal:match.home_score_final,awayScoreFinal:match.away_score_final,advancingTeamId:match.advancing_team_id,scorerPlayerIds:match.scorer_player_ids,appearedPlayerIds:match.appeared_player_ids,registeredPlayerIds:match.registered_player_ids,scorerDataComplete:match.scorer_data_complete,override:match.result_override}};
     });
     let standings:ClubStanding[]=(await db.query('SELECT * FROM club_standings WHERE season_id=$1 ORDER BY position',[season.id])).rows.map(s=>({team:teams.get(s.team_id)!,position:s.position,played:s.played,won:s.won,drawn:s.drawn,lost:s.lost,goalsFor:s.goals_for,goalsAgainst:s.goals_against,points:s.points}));
     if(!standings.length) {
@@ -447,15 +459,17 @@ export async function getGame(user:User,roundId?:string):Promise<GameSnapshot> {
       standings.forEach((entry,index)=>{entry.position=index>0&&compare(entry,standings[index-1])===0?standings[index-1].position:index+1;});
     }
     const ties:Tie[]=[];
-    for(const tieId of new Set(matchRows.map(m=>m.tie_id).filter(Boolean))) {
-      const legs=matchRows.filter(match=>match.tie_id===tieId).sort((a,b)=>(a.leg??1)-(b.leg??1)||+new Date(a.kickoff_at)-+new Date(b.kickoff_at));
-      const first=legs[0];const completed=legs.filter(leg=>leg.status==='final');
+    const tieKey=(match:Record<string,any>)=>match.stage==='final'?(match.tie_id??`final:${match.id}`):match.tie_id;
+    for(const tieId of new Set(matchRows.map(tieKey).filter(Boolean))) {
+      const legs=matchRows.filter(match=>tieKey(match)===tieId).sort((a,b)=>(a.leg??1)-(b.leg??1)||+new Date(a.kickoff_at)-+new Date(b.kickoff_at));
+      const first=legs[0];const completed=legs.filter(leg=>leg.status==='final'&&leg.home_score!==null&&leg.away_score!==null);
       const aggregate=(teamId:string)=>completed.reduce((sum,leg)=>sum+Number(leg.home_team_id===teamId?(leg.home_score_final??leg.home_score):(leg.away_score_final??leg.away_score)),0);
       const homeAggregate=completed.length?aggregate(first.home_team_id):null,awayAggregate=completed.length?aggregate(first.away_team_id):null;
-      let advancingTeamId=legs.find(leg=>leg.advancing_team_id)?.advancing_team_id??null;
       const expectedLegs=first.stage==='final'?1:2;
-      if(!advancingTeamId&&completed.length>=expectedLegs&&homeAggregate!==awayAggregate)advancingTeamId=homeAggregate!>awayAggregate!?first.home_team_id:first.away_team_id;
-      ties.push({id:tieId,stage:first.stage,homeTeam:teams.get(first.home_team_id)!,awayTeam:teams.get(first.away_team_id)!,homeAggregate,awayAggregate,advancingTeamId,matchIds:legs.map(leg=>leg.id)});
+      const coherent=legs.length===expectedLegs&&(expectedLegs===1||(legs[0].leg===1&&legs[1].leg===2&&legs[0].home_team_id===legs[1].away_team_id&&legs[0].away_team_id===legs[1].home_team_id));
+      let advancingTeamId:string|null=null;
+      if(coherent&&completed.length===expectedLegs) advancingTeamId=homeAggregate!==awayAggregate?(homeAggregate!>awayAggregate!?first.home_team_id:first.away_team_id):legs.at(-1)!.advancing_team_id??null;
+      ties.push({id:tieId,stage:first.stage,homeTeam:teams.get(first.home_team_id)!,awayTeam:teams.get(first.away_team_id)!,homeAggregate,awayAggregate,advancingTeamId,matchIds:legs.map(leg=>leg.id),legs:legs.map(leg=>({id:leg.id,roundId:leg.round_id,kickoffAtUtc:iso(leg.kickoff_at),leg:leg.leg,homeTeam:teams.get(leg.home_team_id)!,awayTeam:teams.get(leg.away_team_id)!,status:leg.status,homeScore:leg.home_score,awayScore:leg.away_score,homeScoreFinal:leg.home_score_final,awayScoreFinal:leg.away_score_final}))});
     }
     return {season,user:actualUser,rounds,selectedRoundId,matches,wallet:{bankroll:own.bankroll,openStake:own.openStake,total:own.total,bonuses:bonusRows.map(b=>({date:day(b.date),granted:money(b.granted),available:money(b.available),used:money(b.used),expired:money(b.expired),converted:money(b.converted)}))},leaderboard,standings,ties,
       awards:awardRows(betRows,matchRows,marketRows,users,season),sync:mapSync((await db.query('SELECT * FROM sync_status ORDER BY provider')).rows),serverTime};
@@ -485,6 +499,9 @@ export async function createManualMatch(input:ManualMatchInput,actorId:string):P
   if(input.leg!==undefined && input.leg!==null && input.leg!==1 && input.leg!==2)throw new GameError('Osaottelun numero on 1 tai 2.');
   if(input.tieId!==undefined && input.tieId!==null && (typeof input.tieId!=='string' || input.tieId.trim().length<3 || input.tieId.length>200))throw new GameError('Virheellinen otteluparin tunniste.');
   if(input.stage==='league' && (input.leg || input.tieId))throw new GameError('Liigavaiheessa ei ole kaksiosaisia ottelupareja.');
+  if(input.stage==='final' && input.leg)throw new GameError('Finaali pelataan yhtenä otteluna.');
+  if(input.stage!=='league' && input.stage!=='final' && !input.leg)throw new GameError('Valitse pudotuspeliin osaottelu.');
+  if(input.leg===2 && !input.tieId)throw new GameError('Valitse toiselle osaottelulle aiempi ottelupari.');
   return transaction(async db=>{
     await lockGame(db);await requireAdmin(db,actorId);
     const season=await seasonRow(db);
@@ -502,10 +519,11 @@ export async function createManualMatch(input:ManualMatchInput,actorId:string):P
     const homeId=await teamId(home),awayId=await teamId(away);
     const duplicate=await db.query('SELECT id FROM matches WHERE season_id=$1 AND home_team_id=$2 AND away_team_id=$3 AND kickoff_at=$4',[season.id,homeId,awayId,input.kickoffAtUtc]);
     if(duplicate.rowCount)throw new GameError('Sama ottelu on jo lisätty.',409,'MATCH_EXISTS');
-    const tieId=input.tieId?.trim()??null;
+    const tieId=input.tieId?.trim()??(input.stage!=='league'?`manual-tie-${randomUUID()}`:null);
     if(tieId){
       const legs=(await db.query('SELECT * FROM matches WHERE season_id=$1 AND tie_id=$2',[season.id,tieId])).rows;
       if(legs.some(leg=>leg.stage!==input.stage || ![homeId,awayId].includes(leg.home_team_id) || ![homeId,awayId].includes(leg.away_team_id) || (input.leg && leg.leg===input.leg)))throw new GameError('Otteluparin seurat, vaihe tai osaottelu eivät täsmää.',409,'TIE_CONFLICT');
+      if((input.stage==='final'&&legs.length)||(input.leg===2&&(!legs.length||legs[0].leg!==1||legs[0].home_team_id!==awayId||legs[0].away_team_id!==homeId||+new Date(legs[0].kickoff_at)>=Date.parse(input.kickoffAtUtc))))throw new GameError('Toinen osaottelu pelataan ensimmäisen jälkeen vastakkaisilla kotijoukkueilla.',409,'TIE_CONFLICT');
     }
     const id=`manual-match-${randomUUID()}`;
     await db.query(`INSERT INTO matches(id,season_id,round_id,home_team_id,away_team_id,kickoff_at,date_finland,stage,status,leg,tie_id)

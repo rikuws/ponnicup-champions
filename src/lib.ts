@@ -43,5 +43,8 @@ export const roundLabel = (round: Round) => round.stage === 'league' ? `Kierros 
 export function canBet(match: Match, market: Market, now: number): boolean {
   return match.eligible && match.status === 'scheduled' && Date.parse(match.kickoffAtUtc) > now && market.status === 'open' && market.selections.length > 0;
 }
+export function canCancelBet(match: Match, market: Market, now: number): boolean {
+  return market.userBet?.status === 'placed' && Date.parse(match.kickoffAtUtc) > now;
+}
 export const marketLabel = (market: Market) => ({ main_1x2: 'Ottelun voittaja · 90 min', exact_score: 'Tarkka tulos · 90 min', anytime_goalscorer: 'Maalintekijä · 90 min' })[market.type];
 export const resultLabel = { placed: 'Jätetty', won: 'Voitto', lost: 'Ohi', voided: 'Palautettu', cancelled: 'Peruttu' };
